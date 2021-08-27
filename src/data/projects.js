@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import {v4 as uuidv4} from "uuid"
 
 
@@ -47,7 +48,7 @@ export const projects = [
         title: "Guess Where This Link Goes",
         desc: "I hope you have enjoyed my portfolio! I would love to speak with you further. Let's connect!",
         github: "https://github.com/JohnnyMohawk",
-        demo: "https://www.linkedin.com/in/john-nelson-alden/",
+        demo: "https://jna-developer.netlify.app/contact-me",
         image: "./images/project-6.png"
     },
 ]
