@@ -6,7 +6,7 @@ I am a full-stack software developer with a passion for problem solving, organiz
 
 ## Built With
 
-<img src="/public/images/react-languages-images.png" width=100% height=auto>
+<img src="/public/images/react-languages-image.png" width=100% height=auto>
 
 * [React](https://reactjs.org/)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
