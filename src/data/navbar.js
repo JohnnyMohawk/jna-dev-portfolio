@@ -3,17 +3,17 @@ import {v4 as uuidv4} from "uuid"
 export const navbar = [
     {
         id: uuidv4(),
-        title: "Homepage",
+        title: "Home",
         url: "/"
     },
     {
         id: uuidv4(),
-        title: "Projects",
+        title: "My Projects",
         url: "/projects"
     },
     {
         id: uuidv4(),
-        title: "Contact Me",
+        title: "Let's Connect",
         url: "/contact-me"
     },
 ]

@@ -5,6 +5,9 @@ const Homepage = () => {
         <>
             <section className="homepage">
                 <div className="overlay">
+                    <a className="home-logo" href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer">
+                        <img className="home-logo" id="edit-img" src="./images/project-6.png" />
+                    </a>
                     <h1>John Nelson-Alden</h1>
                     <p>Full-Stack Developer</p>
 

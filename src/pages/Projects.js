@@ -12,16 +12,13 @@ const Projects = () => {
                 <div className="cards">
                     {cards.map(({id, title, desc, github, demo, image}) => (
                         <article key={id}>
-                            <img src={image} alt={title} />
+                            <a href={demo} target="_blank" rel="noopenner noreferrer">
+                                <img src={image} alt={title} />
+                            </a>
                             <h4>{title}</h4>
                             <p>{desc}</p>
                             <a href={github} target="_blank" rel="noopenner noreferrer" className="github"><FaGithub /></a>
                             <a href={demo} target="_blank" rel="noopenner noreferrer" className="launch"><FaPlay /></a>
-
-                            {/* <ul>
-                                <li><a href={github} target="_blank" rel="noopenner noreferrer">GitHub</a></li>
-                                <li><a href={demo} target="_blank" rel="noopenner noreferrer">Deployed Link</a></li>
-                            </ul> */}
                         </article>
                     ))}
                 </div>
