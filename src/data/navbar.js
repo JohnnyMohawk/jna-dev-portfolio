@@ -5,5 +5,15 @@ export const navbar = [
         id: uuidv4(),
         title: "Homepage",
         url: "/"
-    }
+    },
+    {
+        id: uuidv4(),
+        title: "Projects",
+        url: "/projects"
+    },
+    {
+        id: uuidv4(),
+        title: "Contact Me",
+        url: "/contact-me"
+    },
 ]

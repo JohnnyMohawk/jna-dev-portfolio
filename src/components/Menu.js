@@ -1,9 +1,11 @@
 import { useState } from "react"
 import {BiMenu} from "react-icons/bi"
 import { Link } from "react-router-dom"
+import { navbar } from "../data/navbar"
 
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [links, setLinks] = useState(navbar)
     return (
         <>
             <div className="menu-btn">
@@ -15,15 +17,14 @@ const Menu = () => {
                 <header className={`${isOpen ? "header open" : 'header'}`}>
                 <nav>
                     <ul>
-                        <li onClick={() => setIsOpen(false)}>
-                            <Link to="/">Homepage</Link>
-                        </li>
-                        <li onClick={() => setIsOpen(false)}>
-                            <Link to="/projects">Projects</Link>
-                        </li>
-                        <li onClick={() => setIsOpen(false)}>
-                            <Link to="/contact-me">Contact Me</Link>
-                        </li>
+                        {links.map((link) => {
+                            const {id, title, url} = link
+                            return (
+                                <li key={id} onClick={() => setIsOpen(false)}>
+                                    <Link to={url}>{title}</Link>
+                                </li>
+                            )
+                        })}
                     </ul>
                 </nav>
             </header>
