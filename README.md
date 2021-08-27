@@ -1,4 +1,4 @@
-<img src="/public/images/project-6.png" width=100% height=auto>
+<img src="/public/images/project-6.png" width=30% height=auto>
 
 ## About Me
 
