@@ -1,5 +1,6 @@
 import {v4 as uuidv4} from "uuid"
 
+
 export const projects = [
     {
         id: uuidv4(),
@@ -46,7 +47,7 @@ export const projects = [
         title: "Guess Where This Link Goes",
         desc: "I hope you have enjoyed my portfolio! I would love to speak with you further. Let's connect!",
         github: "https://github.com/JohnnyMohawk",
-        demo: "add links",
+        demo: "https://www.linkedin.com/in/john-nelson-alden/",
         image: "./images/project-6.png"
     },
 ]
