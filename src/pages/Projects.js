@@ -7,7 +7,7 @@ const Projects = () => {
     const [cards, setCards] = useState(projects)
     return (
         <>
-            <section className="contacts projects">
+            <section className="contacts projects" id="projects-page">
                 <h1>My Projects</h1>
                 <div className="cards">
                     {cards.map(({id, title, desc, github, demo, image}) => (

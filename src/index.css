@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+#projects-page {
+  background-attachment: absolute;
+  overflow: auto;
+}
+
 .home-logo {
   max-width: 50%;
   margin-bottom: 20px;
@@ -133,11 +138,6 @@ a {
 
 .homepage .overlay ul li a {
   font-size: 46px;
-}
-
-.projects {
-  background-image: var(--background-image);
-  height: 100vh;
 }
 
 .projects h1 {
