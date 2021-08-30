@@ -13,6 +13,16 @@ export const navbar = [
     },
     {
         id: uuidv4(),
+        title: "My Artwork",
+        url: "/my-art"
+    },
+    {
+        id: uuidv4(),
+        title: "About Me",
+        url: "/about-me"
+    },
+    {
+        id: uuidv4(),
         title: "Let's Connect",
         url: "/contact-me"
     },

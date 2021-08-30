@@ -8,6 +8,8 @@ import Error from "./pages/Error";
 import Projects from "./pages/Projects";
 import Menu from "./components/Menu";
 import Contacts from "./pages/Contacts";
+import Art from "./pages/Art";
+import About from "./pages/About";
 
 const App = () => {
   return (
@@ -20,8 +22,14 @@ const App = () => {
         <Route path="/projects">
           <Projects />
         </Route>
+        <Route path="/my-art">
+          <Art />
+        </Route>
+        <Route path="/about-me">
+          <About />
+        </Route>
         <Route path="/contact-me">
-          <Contacts></Contacts>
+          <Contacts />
         </Route>
         <Route path="*">
           <Error />
