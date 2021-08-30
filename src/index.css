@@ -9,9 +9,28 @@
   box-sizing: border-box;
 }
 
+.contacts {
+  background-attachment: absolute;
+  overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #projects-page {
   background-attachment: absolute;
   overflow: auto;
+}
+
+#project-desc {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.pdf {
+  margin: 30px 0;
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-logo {
@@ -304,6 +323,10 @@ svg {
   margin-right: auto;
   justify-content: center;
   align-items: center;
+}
+
+embed {
+
 }
 
 @media (max-width: 1150px) {
