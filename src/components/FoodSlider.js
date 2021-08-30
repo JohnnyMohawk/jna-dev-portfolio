@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { SliderData } from './SliderData'
+import { FoodData } from './FoodData'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
-const ImageSlider = ({ slides }) => {
+const FoodSlider = ({ slides }) => {
     const [currentImage, setCurrentImage] = useState(0)
     const length = slides.length
 
@@ -28,7 +28,7 @@ const ImageSlider = ({ slides }) => {
             <div>
                 <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
             </div>
-            {SliderData.map((slide, index) => {
+            {FoodData.map((slide, index) => {
                 return (
                     <div className={index === currentImage ? "slide active" : "slide"} key={index}>
                         {index === currentImage && (<img src={slide.image} alt={index} className="art-image" />)}
@@ -39,4 +39,4 @@ const ImageSlider = ({ slides }) => {
     )
 }
 
-export default ImageSlider
+export default FoodSlider
