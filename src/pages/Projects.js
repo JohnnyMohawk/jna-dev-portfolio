@@ -16,7 +16,7 @@ const Projects = () => {
                                 <img src={image} alt={title} />
                             </a>
                             <h4>{title}</h4>
-                            <p>{desc}</p>
+                            <p id="project-desc">{desc}</p>
                             <a href={github} target="_blank" rel="noopenner noreferrer" className="github"><FaGithub /></a>
                             <a href={demo} target="_blank" rel="noopenner noreferrer" className="launch"><FaPlay /></a>
                         </article>
