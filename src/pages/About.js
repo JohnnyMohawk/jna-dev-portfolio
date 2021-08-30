@@ -15,7 +15,7 @@ const About = () => {
                 towards the culinary arts and I have logged two decades as a professional chef, working in some of the nation’s finest 
                 restaurants. My unique experience has equipped me with tools to create efficient, real-world solutions to complex problems on-the-fly.</p>
                 <div className="pdf">
-                    <embed src="John_NelsonAlden_Dev_Resume.pdf" width="100%" height="1120px" />
+                    <embed src="John_NelsonAlden_Dev_Resume_for_netlify.pdf" width="100%" height="1120px" />
                 </div>
             </section>
             </div>
