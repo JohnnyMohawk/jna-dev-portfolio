@@ -83,6 +83,7 @@ a {
 .header.open {
   height: 100vh;
   background-color: var(--background-overlay);
+  z-index: 99999;
 }
 
 .header nav ul {
@@ -91,6 +92,8 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  position: relative;
+  z-index: 99999;
 }
 
 .header nav ul li {
@@ -204,10 +207,119 @@ svg {
   text-align: center;
 }
 
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.art-image {
+  margin-top: 20px;
+  max-width: 100%;
+  /* height: auto; */
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration:  1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.bio {
+  margin-top: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  padding: 20px;
+  color: whitesmoke;
+  background-color: rgba(193, 207, 192, 0.2);
+  border: black solid 2px;
+  border-radius: 10px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+#about-header {
+  text-align: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-shadow:
+  -2px -2px 0 black,
+  2px 2px 0 black,
+  -2px -2px 0 black,
+  2px 2px 0 black;
+}
+
+#about-img {
+  max-width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-img:hover {
+  -webkit-filter: invert(100%) !important;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.centering-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1150px) {
   .projects .cards {
     padding: 0 20px 20px;
   }
+  .art-image {
+    margin-top: 15px;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -238,6 +350,15 @@ svg {
   #home-logo {
     max-width: 20%;
   }
+
+  .art-image {
+    margin-top: 20px;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -263,5 +384,24 @@ svg {
 
   #home-logo {
     max-width: 30%;
+  }
+
+  #about-header {
+    width: 375px;
+    font-size: 13px;
+    margin-bottom: -20px;
+  }
+
+  .bio {
+    width: 375px;
+    font-size: 18px;
+  }
+
+  .art-image {
+    margin-top: 35px;
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
