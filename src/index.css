@@ -533,7 +533,7 @@ a {
     top: 40%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    margin: 20px;
+    /* margin-top: 20px; */
   }
 
   .right-arrow {
@@ -549,7 +549,7 @@ a {
   }
 
   .art-image {
-    max-height: 66vh;
+    max-height: 56vh;
     max-width: 92vw;
     border-radius: 0px;
   }
