@@ -580,7 +580,7 @@ button:active {
   }
 
   .home-logo {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 
   .mobile-bg {
@@ -597,7 +597,11 @@ button:active {
   }
 
   .overlay {
-    max-height: 100vh;
+    max-height: 50vh;
+  }
+
+  #edit-img {
+    animation: none;
   }
 
 }
