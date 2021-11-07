@@ -587,4 +587,8 @@ button:active {
     height: 100vh;
   }
 
+  .home-wrapper {
+    margin-top: 100px;
+  }
+
 }
