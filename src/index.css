@@ -140,7 +140,7 @@ a {
 }
 
 .icons {
-  max-width: 50px;
+  width: 50px;
 }
 
 .icons:hover,
@@ -598,10 +598,20 @@ button:active {
 
   .overlay {
     max-height: 50vh;
+    margin-bottom: 0px;
   }
 
   #edit-img {
     animation: none;
+  }
+
+  button {
+    font-size: 31px;
+    margin-bottom: 4px;
+  }
+
+  .homepage .overlay ul {
+    margin-top: 4px;
   }
 
 }
