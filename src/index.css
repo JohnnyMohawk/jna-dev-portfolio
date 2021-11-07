@@ -525,7 +525,6 @@ a {
     align-items: center;
     height: 64vh;
     position: relative;
-    /* max-width: 100vh; */
   }
 
   .art-container {
@@ -552,7 +551,7 @@ a {
   .art-image {
     margin: 0;
     padding: 0;
-    max-height: 58vh;
+    max-height: 56vh;
     max-width: 92vw;
     border-radius: 0px;
   }
