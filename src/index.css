@@ -614,4 +614,9 @@ button:active {
     margin-top: 4px;
   }
 
+  .home-logo {
+    margin-top: 4px;
+    width: 46%;
+  }
+
 }
