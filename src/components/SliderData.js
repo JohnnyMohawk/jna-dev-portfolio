@@ -7,10 +7,10 @@ export const SliderData = [
         image: "./images/espolon.jpeg"
     },
     {
-        image: "./images/wedding.jpeg"
+        image: "./images/wedding.PNG"
     },
     {
-        image: "./images/triptych.jpeg"
+        image: "./images/triptych.png"
     },
     {
         image: "./images/triptych-1-3.jpeg"
@@ -37,10 +37,13 @@ export const SliderData = [
         image: "./images/city-breathes.jpeg"
     },
     {
-        image: "./images/robo-v-skelly.jpeg"
+        image: "./images/robo-v-skelly.JPG"
     },
     {
-        image: "./images/for-dad.jpg"
+        image: "./images/tree-of-light.jpeg"
+    },
+    {
+        image: "./images/for-dad.jpeg"
     },
     {
         image: "./images/love.jpeg"
