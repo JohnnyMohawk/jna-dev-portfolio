@@ -596,4 +596,8 @@ button:active {
     height: 100vh;
   }
 
+  .overlay {
+    max-height: 100vh;
+  }
+
 }
