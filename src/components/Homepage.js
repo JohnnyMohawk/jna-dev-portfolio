@@ -18,7 +18,7 @@ const Homepage = () => {
                     >
                         John Nelson-Alden
                     </SayButton>                
-                    <p className="home-text">Full-Stack Developer</p>
+                    <p className="home-title">Full-Stack Developer</p>
 
                     <ul>
                         <li className="home-text"><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><img className="icons" src="./images/li-bw.png" /></a></li>

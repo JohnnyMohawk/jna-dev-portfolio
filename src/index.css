@@ -47,13 +47,17 @@ button:hover {
   background: none;
 }
 
-.home-text {
+.home-title {
   text-shadow:
   -2px -2px 2px black,
   2px 2px 2px black,
   -2px -2px 2px black,
   2px 2px 2px black;
 }
+
+/* .home-text:hover {
+  -webkit-filter: invert(100%) !important;
+} */
 
 .contacts {
   background-attachment: absolute;
@@ -139,7 +143,12 @@ a {
 }
 
 .icons {
-  max-width: 55px;
+  max-width: 50px;
+}
+
+.icons:hover,
+.home-title:hover {
+  -webkit-filter: invert(100%) !important;
 }
 
 .menu-btn {
