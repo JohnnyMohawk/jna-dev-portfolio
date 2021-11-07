@@ -8,7 +8,8 @@
   box-sizing: border-box;
 }
 
-video {
+video,
+.mobile-bg {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -54,10 +55,6 @@ button:hover {
   -2px -2px 2px black,
   2px 2px 2px black;
 }
-
-/* .home-text:hover {
-  -webkit-filter: invert(100%) !important;
-} */
 
 .contacts {
   background-attachment: absolute;
@@ -149,6 +146,14 @@ a {
 .icons:hover,
 .home-title:hover {
   -webkit-filter: invert(100%) !important;
+}
+
+.icons:active {
+  transform: translateY(4px)
+}
+
+button:active {
+  transform: translateY(4px)
 }
 
 .menu-btn {
@@ -475,6 +480,11 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
+  }
+
+  .home-logo {
+    margin-bottom: 80px;
   }
 
 }
@@ -563,6 +573,14 @@ a {
     max-height: 56vh;
     max-width: 92vw;
     border-radius: 0px;
+  }
+
+  .header {
+    width: 50vw;
+  }
+
+  .home-logo {
+    margin-bottom: 50px;
   }
 
 }
