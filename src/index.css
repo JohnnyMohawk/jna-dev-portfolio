@@ -518,11 +518,21 @@ a {
     font-size: 18px;
   }
 
+  .art-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+    position: relative;
+  }
+
   .art-container {
     position: absolute;
-    top: 50%;
+    top: 40%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    margin: 20px;
   }
 
   .right-arrow {
@@ -539,13 +549,7 @@ a {
 
   .art-image {
     max-height: 70vh;
-  }
-
-  .art-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border-radius: 0px;
   }
 
 }
