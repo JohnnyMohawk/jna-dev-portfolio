@@ -589,6 +589,11 @@ button:active {
 
   .home-wrapper {
     margin-top: 100px;
+
+  }
+
+  .homepage {
+    height: 100vh;
   }
 
 }
