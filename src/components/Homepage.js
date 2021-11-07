@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import {FaLinkedin, FaGithub} from "react-icons/fa"
+import { SayButton } from 'react-say'
 
 const Homepage = () => {
     return (
@@ -11,7 +11,13 @@ const Homepage = () => {
                     <Link to="/projects">
                         <img className="home-logo" id="edit-img" src="./images/project-6.png" />
                     </Link>
-                    <h1 className="home-text">John Nelson-Alden</h1>
+                    <SayButton
+                        className="home-name"
+                        onClick={ event => console.log(event) }
+                        speak="John Nelson Allden"
+                    >
+                        John Nelson-Alden
+                    </SayButton>                
                     <p className="home-text">Full-Stack Developer</p>
 
                     <ul>
