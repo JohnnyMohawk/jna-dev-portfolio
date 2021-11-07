@@ -33,7 +33,6 @@ button {
   -2px -2px 3px black,
   2px 2px 3px black;
   transition: all 0.3s ease-out;
-  /* margin-top: 25px; */
 }
 
 button:hover {
@@ -130,7 +129,6 @@ img {
 
 body {
   font-family: 'Josefin Sans', sans-serif;
-  /* background-image: var(--background-image); */
   overflow: auto;
 }
 
@@ -188,16 +186,7 @@ a {
   margin: 20px 0;
 }
 
-/* .homepage {
-  background: url("./clouds-hero.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-} */
-
 .homepage .overlay {
-  /* background-image: var(--background-image); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -302,10 +291,15 @@ a {
   margin-top: 30px;
   max-height: 75vh;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 .art-container {
-  margin: 0 35px;
+  margin: 20px 45px;
+}
+
+.art-wrapper {
+  margin: 0 auto;
 }
 
 .right-arrow {
@@ -399,10 +393,6 @@ a {
   align-items: center;
 }
 
-embed {
-
-}
-
 @media (max-width: 1150px) {
   button {
     font-size: 84px;
@@ -418,7 +408,6 @@ embed {
     padding: 0 20px 20px;
   }
   .art-image {
-    /* margin-top: 15px; */
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -473,7 +462,6 @@ embed {
   }
 
   .art-image {
-    /* margin-top: 20px; */
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -530,11 +518,34 @@ embed {
     font-size: 18px;
   }
 
-  .art-image {
-    /* margin-top: 35px; */
-    /* max-width: 60%; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .art-container {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
+
+  .right-arrow {
+    position: absolute;
+    top: 105%;
+    right: 0px;
+  }
+
+  .left-arrow {
+    position: absolute;
+    top: 105%;
+    left: 0px;
+  }
+
+  .art-image {
+    max-height: 70vh;
+  }
+
+  .art-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }

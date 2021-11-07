@@ -6,8 +6,10 @@ const Art = () => {
         <>
             <section className="contacts" id="projects-page">
                 <h1>My Artwork</h1>
-                <div className="art-container">
-                    <ImageSlider slides={SliderData}/>
+                <div className="art-wrapper">
+                    <div className="art-container">
+                        <ImageSlider slides={SliderData}/>
+                    </div>
                 </div>
             </section>
         </>
