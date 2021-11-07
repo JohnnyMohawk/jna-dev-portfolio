@@ -523,7 +523,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 84vh;
+    height: 64vh;
     position: relative;
     max-width: 100vh;
   }
