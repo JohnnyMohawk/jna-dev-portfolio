@@ -11,7 +11,8 @@ const Menu = () => {
         <>
             <div className="menu-btn">
                 <button onClick={() => setIsOpen(!isOpen)}>
-                    <BiMenu />
+                    {/* <BiMenu /> */}
+                    <img className="icons" src="./images/hamburger-icon.png" />
                 </button>
             </div>
 

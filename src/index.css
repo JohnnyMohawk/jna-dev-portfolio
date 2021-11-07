@@ -1,12 +1,31 @@
 :root {
-  --background-image: linear-gradient(120deg, #000000,rgba(104, 125, 170, 0.67));
-  --background-overlay: rgba(0,0,0,0.4);
+  --background-image: linear-gradient(120deg, rgba(0,0,0,1),rgba(0,0,0,0.9));
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.home-wrapper {
+  margin-top: 250px;
+}
+
+.home-text {
+  text-shadow:
+  -2px -2px 0px black,
+  2px 2px 0px black,
+  -2px -2px 0px black,
+  2px 2px 0px black;
 }
 
 .contacts {
@@ -46,6 +65,24 @@
   animation-timing-function: linear;
 }
 
+
+#edit-img {
+  animation: heart-pulse 0.9s infinite ease-out;
+}
+
+
+@keyframes heart-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 @keyframes spin {
   from {
     transform:rotate(0deg);
@@ -65,7 +102,7 @@ img {
 
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-image: var(--background-image);
+  /* background-image: var(--background-image); */
   overflow: auto;
 }
 
@@ -73,6 +110,10 @@ a {
   font-family: inherit;
   text-decoration: none;
   color: white;
+}
+
+.icons {
+  max-width: 55px;
 }
 
 .menu-btn {
@@ -101,7 +142,7 @@ a {
 
 .header.open {
   height: 100vh;
-  background-color: var(--background-overlay);
+  background-color: rgba(248, 4, 4, 0.8);
   z-index: 99999;
 }
 
@@ -119,16 +160,16 @@ a {
   margin: 20px 0;
 }
 
-.homepage {
+/* .homepage {
   background: url("./clouds-hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-}
+} */
 
 .homepage .overlay {
-  background-image: var(--background-image);
+  /* background-image: var(--background-image); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,10 +228,6 @@ a {
   margin-bottom: 30px;
 }
 
-svg {
-  margin-top: 10px;
-}
-
 .github {
   margin-right: 20px;
   font-size: 36px;
@@ -234,9 +271,13 @@ svg {
 }
 
 .art-image {
-  margin-top: 20px;
-  max-width: 100%;
+  margin-top: 30px;
+  max-height: 75vh;
   border-radius: 10px;
+}
+
+.art-container {
+  margin: 0 35px;
 }
 
 .right-arrow {
@@ -244,7 +285,7 @@ svg {
   top: 50%;
   right: 32px;
   font-size: 3rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.3);
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -255,10 +296,15 @@ svg {
   top: 50%;
   left: 32px;
   font-size: 3rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.3);
   z-index: 10;
   cursor: pointer;
   user-select: none;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+  color: rgb(255, 255, 255);
 }
 
 .slide {
@@ -334,8 +380,8 @@ embed {
     padding: 0 20px 20px;
   }
   .art-image {
-    margin-top: 15px;
-    max-width: 80%;
+    /* margin-top: 15px; */
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -373,8 +419,8 @@ embed {
   }
 
   .art-image {
-    margin-top: 20px;
-    max-width: 70%;
+    /* margin-top: 20px; */
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -425,8 +471,8 @@ embed {
   }
 
   .art-image {
-    margin-top: 35px;
-    max-width: 60%;
+    /* margin-top: 35px; */
+    /* max-width: 60%; */
     display: block;
     margin-left: auto;
     margin-right: auto;

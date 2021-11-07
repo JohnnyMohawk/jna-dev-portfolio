@@ -1,38 +1,38 @@
 export const FoodData = [
     {
-        image: "./images/mussels-lamb.jpeg"
+        image: "./images/mussels-lamb.jpg"
     },
     {
-        image: "./images/red-mullet.jpeg"
+        image: "./images/red-mullet.jpg"
     },
     {
-        image: "./images/octopus.jpeg"
+        image: "./images/octopus.jpg"
     },
     {
-        image: "./images/uni.jpeg"
+        image: "./images/uni.jpg"
     },
     {
-        image: "./images/seafood-tower.jpeg"
+        image: "./images/seafood-tower.jpg"
     },
     {
-        image: "./images/tasting-dishes.jpeg"
+        image: "./images/tasting-dishes.jpg"
     },
     {
-        image: "./images/tortillas.jpeg"
+        image: "./images/tortillas.jpg"
     },
     {
-        image: "./images/liquid-nitrogen.jpeg"
+        image: "./images/liquid-nitrogen.jpg"
     },
     {
-        image: "./images/lobstersaurus.jpeg"
+        image: "./images/lobstersaurus.jpg"
     },
     {
-        image: "./images/ostenito.jpeg"
+        image: "./images/ostenito.jpg"
     },
     {
-        image: "./images/hongoron.jpeg"
+        image: "./images/hongoron.jpg"
     },
     {
-        image: "./images/six-foot-burrito.jpeg"
+        image: "./images/six-foot-burrito.jpg"
     },
 ]

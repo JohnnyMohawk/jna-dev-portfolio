@@ -6,7 +6,9 @@ const Art = () => {
         <>
             <section className="contacts" id="projects-page">
                 <h1>My Artwork</h1>
-                <ImageSlider slides={SliderData}/>
+                <div className="art-container">
+                    <ImageSlider slides={SliderData}/>
+                </div>
             </section>
         </>
     )
