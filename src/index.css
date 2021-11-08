@@ -505,6 +505,11 @@ button:active {
   }
 
   button:hover {
+    font-size: 36px;
+    color: white;
+  }
+
+  button:active {
     color: red;
     transition: all 0.3s ease-out;
     font-size: 38px;
@@ -597,6 +602,7 @@ button:active {
 
   .overlay {
     max-height: 50vh;
+    width: 100vw;
     margin-bottom: 0px;
     position: fixed;
     bottom: 0;
@@ -613,6 +619,11 @@ button:active {
   }
 
   button:hover {
+    font-size: 30px;
+    color: white;
+  }
+
+  button:active {
     font-size: 31px;
     color: red;
   }
