@@ -645,6 +645,15 @@ button:active {
   .icons:hover,
   .homepage .overlay p:hover {
     -webkit-filter: invert(0%) !important;
-}
+  }
+
+  #edit-img:hover {
+    -webkit-filter: invert(0%) !important;
+    animation: none;
+  }
+
+  #edit-img:active {
+    -webkit-filter: invert(100%) !important;
+  }
 
 }
