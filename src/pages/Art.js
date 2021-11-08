@@ -5,7 +5,7 @@ const Art = () => {
     return (
         <>
             <section className="contacts" id="projects-page">
-                <h1>My Artwork</h1>
+                <h1 className="page-title">My Artwork</h1>
                 <div className="art-wrapper">
                     <div className="art-container">
                         <ImageSlider slides={SliderData}/>

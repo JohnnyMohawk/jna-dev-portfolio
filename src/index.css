@@ -634,4 +634,8 @@ button:active {
     top: 20%;
   }
 
+  .page-title {
+    position: fixed;
+  }
+
 }
