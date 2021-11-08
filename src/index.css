@@ -613,21 +613,6 @@ button:active {
     animation: none;
   }
 
-  button {
-    font-size: 30px;
-    margin-bottom: 4px;
-  }
-
-  button:hover {
-    font-size: 30px;
-    color: white;
-  }
-
-  button:active {
-    font-size: 31px;
-    color: red;
-  }
-
   .homepage .overlay ul {
     margin-top: 4px;
   }
@@ -647,5 +632,19 @@ button:active {
   .page-title {
     position: fixed;
   }
+
+  .homepage .overlay h1 {
+    font-size: 30px;
+    text-shadow:
+    -2px -2px 3px black,
+    2px 2px 3px black,
+    -2px -2px 3px black,
+    2px 2px 3px black;
+  }
+
+  .icons:hover,
+  .homepage .overlay p:hover {
+    -webkit-filter: invert(0%) !important;
+}
 
 }

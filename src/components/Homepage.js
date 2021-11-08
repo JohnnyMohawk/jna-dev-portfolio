@@ -48,13 +48,7 @@ const Homepage = () => {
                 <Link to="/projects">
                     <img className="home-logo" id="edit-img" src="./images/project-6.png" />
                 </Link>
-                <SayButton
-                    className="home-name"
-                    onClick={ event => console.log(event) }
-                    speak="John Nelson Allden. Maker and Doer of things. Writer and Reader of code. Cooker and Eater of food. Rescuer and Lover of dogs"
-                >
-                    John Nelson-Alden
-                </SayButton>                
+                <h1 className="home-name1">John Nelson-Alden</h1>               
                 <p className="home-title">Full-Stack Developer</p>
 
                 <ul>
