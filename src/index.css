@@ -627,4 +627,11 @@ button:active {
     width: 46%;
   }
 
+  .art-wrapper {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    top: 20%;
+  }
+
 }
