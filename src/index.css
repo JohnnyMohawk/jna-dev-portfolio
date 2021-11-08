@@ -656,4 +656,16 @@ button:active {
     -webkit-filter: invert(100%) !important;
   }
 
+  .right-arrow:hover,
+  .left-arrow:hover {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .right-arrow:active,
+  .left-arrow:active {
+    color: rgb(255, 255, 255);
+    transform: translateY(2px);
+    transition: all 0.9s ease-in-out;
+  }
+
 }
