@@ -191,7 +191,7 @@ button:active {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
   z-index: 99999;
 }
@@ -589,7 +589,6 @@ button:active {
 
   .home-wrapper {
     margin-top: 100px;
-
   }
 
   .homepage {
