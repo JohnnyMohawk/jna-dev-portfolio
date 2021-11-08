@@ -5,6 +5,14 @@ import {v4 as uuidv4} from "uuid"
 export const projects = [
     {
         id: uuidv4(),
+        title: "Shy Jack",
+        desc: "Shy Jack is a MERN stack application that allows users to map and graph Chicago carjacking data from 2001 to Present based on their specific search parameters. Stay safe Chicago!",
+        github: "https://github.com/JohnnyMohawk/chi-jack-app",
+        demo: "https://www.shyjack.com/",
+        image: "./images/shy-jack-project.png"
+    },
+    {
+        id: uuidv4(),
         title: "UNleash",
         desc: "UNleash is a MERN stack application designed to help people locate dog parks in their area and enables users to connect with the communities that exist in these dog friendly public spaces.",
         github: "https://github.com/JohnnyMohawk/unleash",
@@ -42,13 +50,5 @@ export const projects = [
         github: "https://github.com/JohnnyMohawk/ttt-weekend",
         demo: "https://tar-get-toe.netlify.app/",
         image: "./images/project-5.png"
-    },
-    {
-        id: uuidv4(),
-        title: "Guess Where This Link Goes",
-        desc: "I hope you have enjoyed my portfolio! I would love to speak with you further. Let's connect!",
-        github: "https://github.com/JohnnyMohawk",
-        demo: "https://jna-developer.netlify.app/contact-me",
-        image: "./images/project-6.png"
     },
 ]
