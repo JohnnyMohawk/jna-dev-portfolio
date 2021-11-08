@@ -560,16 +560,22 @@ button:active {
     padding: 0;
   }
 
+  .centering-div {
+    position: relative;
+  }
+
+
   .right-arrow {
     position: absolute;
-    top: 105%;
-    right: 10px;
+    /* top: 105%; */
+    bottom: 100%;
+    right: 0px;
   }
 
   .left-arrow {
     position: absolute;
-    top: 105%;
-    left: 10px;
+    /* top: 105%; */
+    left: 0px;
   }
 
   .art-image {
