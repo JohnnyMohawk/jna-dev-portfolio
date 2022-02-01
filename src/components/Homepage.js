@@ -30,10 +30,11 @@ const Homepage = () => {
                     >
                         John Nelson-Alden
                     </SayButton>                
-                    <p className="home-title">Full-Stack Developer</p>
+                    <p className="home-title">Software Engineer & Artist</p>
 
                     <ul>
                         <li className="home-text"><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><img className="icons" src="./images/li-bw.png" /></a></li>
+                        <li className="home-text"><a href="https://twitter.com/_JohnnyMohawk" target="_blank" rel="noopennernoreferrer"><img className="icons1" src="./images/twitter.png" /></a></li>
                         <li className="home-text"><a href="https://github.com/JohnnyMohawk" target="_blank" rel="noopennernoreferrer"><img className="icons" src="./images/gh-bw.png" /></a></li>
                     </ul>
                 </div>
@@ -49,10 +50,11 @@ const Homepage = () => {
                     <img className="home-logo" id="edit-img" src="./images/project-6.png" />
                 </Link>
                 <h1 className="home-name1">John Nelson-Alden</h1>               
-                <p className="home-title">Full-Stack Developer</p>
+                <p className="home-title">Software Engineer & Artist</p>
 
                 <ul>
                     <li className="home-text"><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><img className="icons" src="./images/li-bw.png" /></a></li>
+                    <li className="home-text"><a href="https://twitter.com/_JohnnyMohawk" target="_blank" rel="noopennernoreferrer"><img className="icons" src="./images/twitter.png" /></a></li>
                     <li className="home-text"><a href="https://github.com/JohnnyMohawk" target="_blank" rel="noopennernoreferrer"><img className="icons" src="./images/gh-bw.png" /></a></li>
                 </ul>
             </div>

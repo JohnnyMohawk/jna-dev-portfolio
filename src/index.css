@@ -143,11 +143,17 @@ a {
   width: 50px;
 }
 
+.icons1 {
+  width: 48px;
+}
+
+.icons1:hover,
 .icons:hover,
 .home-title:hover {
   -webkit-filter: invert(100%) !important;
 }
 
+.icons1:active,
 .icons:active {
   transform: translateY(4px)
 }
@@ -287,6 +293,16 @@ button:active {
 
 .contacts ul li a {
   font-size: 30px;
+}
+
+.contacts ul li a:hover {
+  color:red;
+  font-size: 32px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contacts ul li:active {
+  transform: translateY(4px)
 }
 
 .contacts ul li {

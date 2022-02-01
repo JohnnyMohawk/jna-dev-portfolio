@@ -1,13 +1,33 @@
 export const SliderData = [
-
     {
-        image: "./images/namaste.jpeg"
+        image: "./images/Let's go out and play!.jpg"
     },
     {
-        image: "./images/espolon.jpeg"
+        image: "./images/Khailbut.png"
     },
     {
-        image: "./images/wedding.PNG"
+        image: "./images/Life_Mocked.jpg"
+    },
+    {
+        image: "./images/The Great Chicago Ring of Fire.jpg"
+    },
+    {
+        image: "./images/War. Horses of the Apocalypse 1 - 4.png"
+    },
+    {
+        image: "./images/Conquest. Horses of the Apocalypse- 2 - 4.png"
+    },
+    {
+        image: "./images/Famine. Horses of the Apocalypse- 3 - 4.jpg"
+    },
+    {
+        image: "./images/Death. Horses of the Apocalypse- 4 - 4.png"
+    },
+    {
+        image: "./images/tree-of-light.jpeg"
+    },
+    {
+        image: "./images/for-dad.jpeg"
     },
     {
         image: "./images/triptych.png"
@@ -20,6 +40,18 @@ export const SliderData = [
     },
     {
         image: "./images/triptych-3-3.jpeg"
+    },
+    {
+        image: "./images/love.jpeg"
+    },
+    {
+        image: "./images/namaste.jpeg"
+    },
+    {
+        image: "./images/espolon.jpeg"
+    },
+    {
+        image: "./images/wedding.PNG"
     },
     {
         image: "./images/pre-streetart-art.jpeg"
@@ -38,14 +70,5 @@ export const SliderData = [
     },
     {
         image: "./images/robo-v-skelly.JPG"
-    },
-    {
-        image: "./images/tree-of-light.jpeg"
-    },
-    {
-        image: "./images/for-dad.jpeg"
-    },
-    {
-        image: "./images/love.jpeg"
     },
 ]
