@@ -388,19 +388,23 @@ button:active {
 }
 
 #about-header {
+  line-height: 24px;
   text-align: center;
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Josefin Sans', sans-serif;
   color: white;
-  text-shadow:
+  /* text-shadow:
   -2px -2px 0 black,
   2px 2px 0 black,
   -2px -2px 0 black,
-  2px 2px 0 black;
+  2px 2px 0 black; */
+}
+
+.aboutln1 {
+  margin-left: -5px;
 }
 
 #about-img {
@@ -436,6 +440,7 @@ button:active {
   text-shadow: none;
   font-size: 20px !important;
   font-family: 'Open Sans Condensed', sans-serif !important;
+  margin: 15px !important;
 }
 
 .skillsButton:hover {
@@ -445,13 +450,40 @@ button:active {
   border: 2px solid red !important;
 }
 
-.modalDiv {
-  /* width: 80vw; */
-  height: 100px;
+.centerModalDiv {
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+}
+
+.modalDiv {
+  min-width: 50vw;
+  /* height: 100px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillExpWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.eduArtOtherWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.eduSplitWrap {
+  display: flex;
+  flex-direction: row;
 }
 
 .closeButton {
@@ -517,6 +549,7 @@ button:active {
 }
 
 @media (max-width: 768px) {
+
   button {
     font-size: 44px;
   }
@@ -544,7 +577,11 @@ button:active {
   }
 
   .home-logo {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
+  }
+
+  .modalDiv {
+    flex-direction: column;
   }
 
 }
@@ -552,6 +589,13 @@ button:active {
 @media (max-width: 640px) {
   .bio {
     width: 500px;
+  }
+  #about-header {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .aboutln1 {
+    margin-left: -4px;
   }
 }
 
@@ -601,11 +645,23 @@ button:active {
     width: 345px;
     font-size: 12px;
     margin-bottom: 10px;
+    line-height: 14px;
+  }
+
+  .aboutln1 {
+    margin-left: -3px;
   }
 
   .bio {
     width: 335px;
     font-size: 18px;
+  }
+
+  .eduSplitWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .art-wrapper {

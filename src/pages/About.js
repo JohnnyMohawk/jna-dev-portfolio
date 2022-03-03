@@ -14,16 +14,22 @@ const About = () => {
                 <Link to="/contact-me">
                     <img className="home-logo" id="about-img" src="./images/project-6.png" />
                 </Link>
-                <h3 id="about-header">writer && readerOfCode || maker && doerOfThings<br></br> cooker && eaterOfFood || rescuer && loverOfDogs</h3>
-
-                <div className='modalDiv'>
-                    <SkillsModal />
-                    <ExperienceModal />
-                    <EducationModal />
-                    <ArtDesignModal />
-                    <OtherModal />
+                <h3 id="about-header"><span className='aboutln1'>writer && readerOfCode || maker && doerOfThings</span><br></br> cooker && eaterOfFood || rescuer && loverOfDogs</h3>
+                <div className='centerModalDiv'>
+                    <div className='modalDiv'>
+                        <div className='skillExpWrap'>
+                            <SkillsModal />
+                            <ExperienceModal />
+                        </div>
+                        <div className='eduSplitWrap'>
+                            <EducationModal />
+                            <div className='eduArtOtherWrap'>
+                                <ArtDesignModal />
+                                <OtherModal />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
                 <p className="bio">I am a full-stack software developer with a passion for problem solving, organization, efficiency, 
                 and creativity. Having spent my early years working as a professional actor on screen and stage, and studying visual art, my creative energy turned 
                 towards the culinary arts and I have logged two decades as a professional chef, working in some of the nation’s finest 
