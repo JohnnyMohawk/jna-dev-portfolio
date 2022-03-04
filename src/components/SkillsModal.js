@@ -14,7 +14,7 @@ const style = {
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
-  p: 4,
+  p: 2,
 };
 
 export default function SkillsModal() {
@@ -33,11 +33,66 @@ export default function SkillsModal() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+            Technical Skills:
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. 
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Languages
           </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Python</li>
+              <li>EJS</li>
+            </ul>
+          </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Frameworks
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Next.js</li>
+              <li>Express</li>
+              <li>AWS Amplify</li>
+              <li>Mongoose</li>
+              <li>Django</li>
+              <li>jQuery</li>
+              <li>Material UI</li>
+              <li>Bootstrap</li>
+            </ul>
+          </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Databases
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <ul>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>DynamoDB</li>
+            </ul>
+          </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Tools
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Bitbucket</li>
+              <li>Jira</li>
+              
+            </ul>
+          </Typography>
+          <div id='popupBreak'></div>
           <button className='closeButton' onClick={handleClose}><FaTimesCircle /></button>
         </Box>
       </Modal>

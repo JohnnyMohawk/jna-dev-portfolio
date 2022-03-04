@@ -486,9 +486,43 @@ button:active {
   flex-direction: row;
 }
 
+#modal-modal-title {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#popupBreak {
+  width: 100%;
+  border-bottom: 2px solid black;
+  margin-top: 5px;
+
+}
+
+#modal-subtitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  margin: 8px 0 0 8px;
+}
+
+#modal-modal-description {
+  margin-top: 0;
+  line-height: 18px !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+ul {
+  line-height: 25px;
+  font-size: 25px !important;
+  margin-left: 30px;
+  width: 100%;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: circle;
+}
+
 .closeButton {
-  font-size: 50px;
-  margin: 20px 0 0 250px;
+  font-size: 30px;
+  margin: 20px 0 0 300px;
 }
 
 .closeButton:hover {
