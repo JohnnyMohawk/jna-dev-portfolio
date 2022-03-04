@@ -89,7 +89,18 @@ export default function SkillsModal() {
               <li>GitHub</li>
               <li>Bitbucket</li>
               <li>Jira</li>
-              
+              <li>Strapi</li>
+              <li>Heroku</li>
+              <li>Netlify</li>
+              <li>AWS</li>
+              <li>LucidChart</li>
+              <li>Figma</li>
+              <li>WordPress</li>
+              <li>MailChimp</li>
+              <li>Shopify</li>
+              <li>Photoshop</li>
+              <li>Procreate</li>
+              <li>RoughAnimator</li>
             </ul>
           </Typography>
           <div id='popupBreak'></div>
