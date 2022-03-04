@@ -75,8 +75,10 @@ export default function SkillsModal() {
             <ul>
               <li>PostgreSQL</li>
               <li>MySQL</li>
+              <li>SQLite</li>
               <li>MongoDB</li>
               <li>DynamoDB</li>
+              <li>AWS S3</li>
             </ul>
           </Typography>
           <div id='popupBreak'></div>

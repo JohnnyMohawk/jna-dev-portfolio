@@ -68,33 +68,45 @@ export default function ArtDesignModal() {
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
             <ul>
               <li>Ceramic</li>
-              <li>Wood Carving</li>
-              <li>MongoDB</li>
-              <li>DynamoDB</li>
+              <li>Carving</li>
+              <li>Metal Casting</li>
+              <li>Resin Casting</li>
+              <li>Assemblage</li>
+              <li>Installation</li>
             </ul>
           </Typography>
           <div id='popupBreak'></div>
           <Typography id="modal-subtitle" variant="h6" component="h2">
-            Tools
+            Digital
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
             <ul>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>Bitbucket</li>
-              <li>Jira</li>
-              <li>Strapi</li>
-              <li>Heroku</li>
-              <li>Netlify</li>
-              <li>AWS</li>
-              <li>LucidChart</li>
-              <li>Whimsical</li>
-              <li>Figma</li>
-              <li>Cypress</li>
-              <li>Jasmine</li>
-              <li>WordPress</li>
-              <li>MailChimp</li>
-              <li>Shopify</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Procreate</li>
+              <li>RoughAnimator</li>
+              <li>Final Cut Pro</li>
+              <li>VS Code</li>
+              <li>Canvas-sketch</li>
+              <li>Ableton Live</li>
+            </ul>
+          </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Woodworking
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <ul>
+              <li>Shaping & Molding</li>
+              <li>Scrollwork</li>
+              <li>Lathe Turning</li>
+              <li>Lamination</li>
+              <li>Veneering</li>
+              <li>Woodbending</li>
+              <li>Wood Carving</li>
+              <li>Inlay</li>
+              <li>Dovetailing</li>
+              <li>Structural</li>
             </ul>
           </Typography>
           <div id='popupBreak'></div>
