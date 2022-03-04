@@ -533,6 +533,10 @@ ul {
   margin-left: 15px;
 }
 
+.eduDeets {
+  margin-left: 15px;
+}
+
 @media (max-width: 1150px) {
   button {
     font-size: 84px;

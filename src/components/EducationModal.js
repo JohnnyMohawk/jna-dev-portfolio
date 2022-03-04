@@ -32,12 +32,41 @@ export default function EducationModal() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
+        <Typography id="modal-modal-title" variant="h6" component="h2">
+            Education:
+          </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Generally Assembly
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Duis mollis, est non commodo luctus, nisi erat porttitor ligula. 
+            
+            <p className='eduDeets'>Software Engineering Immersive</p>
+            <p className='eduDeets'>Certificate of Completion</p>
+            <p className='eduDeets'>Chicago, Il, June 2021 - August 2021</p>
           </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Roosevelt University
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <p className='eduDeets'>Bachelor of Professional Studies,</p>
+            <p className='eduDeets'>Individualized Major:</p>
+            <p className='eduDeets'>Economics and Hospitality Management</p>
+            <p className='eduDeets'>Graduated with honors. Benjamin Franklin Honors Scociety</p>
+            <p className='eduDeets'>Chicago, Il, 2006 - 2009</p>
+          </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            The Cooking & Hospitality Institute
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <p className='eduDeets'>Associate in Applied Science:</p>
+            <p className='eduDeets'>Culinary Arts</p>
+            <p className='eduDeets'>Chicago, Il, 2002 - 2004</p>
+          </Typography>
+          <div id='popupBreak'></div>
+          
           <button className='closeButton' onClick={handleClose}><FaTimesCircle /></button>
         </Box>
       </Modal>
