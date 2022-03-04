@@ -94,13 +94,13 @@ export default function SkillsModal() {
               <li>Netlify</li>
               <li>AWS</li>
               <li>LucidChart</li>
+              <li>Whimsical</li>
               <li>Figma</li>
+              <li>Cypress</li>
+              <li>Jasmine</li>
               <li>WordPress</li>
               <li>MailChimp</li>
               <li>Shopify</li>
-              <li>Photoshop</li>
-              <li>Procreate</li>
-              <li>RoughAnimator</li>
             </ul>
           </Typography>
           <div id='popupBreak'></div>
