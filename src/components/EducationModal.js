@@ -43,7 +43,7 @@ export default function EducationModal() {
             
             <p className='eduDeets'>Software Engineering Immersive</p>
             <p className='eduDeets'>Certificate of Completion</p>
-            <p className='eduDeets'>Chicago, Il, June 2021 - August 2021</p>
+            <p className='eduDeets'>Chicago, IL, June 2021 - August 2021</p>
           </Typography>
           <div id='popupBreak'></div>
           <Typography id="modal-subtitle" variant="h6" component="h2">
@@ -54,7 +54,7 @@ export default function EducationModal() {
             <p className='eduDeets'>Individualized Major:</p>
             <p className='eduDeets'>Economics and Hospitality Management</p>
             <p className='eduDeets'>Graduated with honors. Benjamin Franklin Honors Scociety</p>
-            <p className='eduDeets'>Chicago, Il, 2006 - 2009</p>
+            <p className='eduDeets'>Chicago, IL, 2006 - 2009</p>
           </Typography>
           <div id='popupBreak'></div>
           <Typography id="modal-subtitle" variant="h6" component="h2">
@@ -63,7 +63,16 @@ export default function EducationModal() {
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
             <p className='eduDeets'>Associate in Applied Science:</p>
             <p className='eduDeets'>Culinary Arts</p>
-            <p className='eduDeets'>Chicago, Il, 2002 - 2004</p>
+            <p className='eduDeets'>Chicago, IL, 2002 - 2004</p>
+          </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Milwaukee Institute of Art & Design
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <p className='eduDeets'>Coursework in Sculture, Printmaking, 2D and 3D design</p>
+            <p className='eduDeets'>Fine Arts</p>
+            <p className='eduDeets'>Milwaukee, WI, 2001 - 2002</p>
           </Typography>
           <div id='popupBreak'></div>
           
