@@ -35,7 +35,7 @@ const ImageSlider = ({ slides }) => {
                     <div className={index === currentImage ? "slide active" : "slide"} key={index}>
                         {index === currentImage && (<img src={slide.image} alt={index} className="art-image" />)}
                         <div className='imgButtWrap'>
-                            {index === currentImage && (<ImgInfoPopover info={slide.info} />)}
+                            {index === currentImage && (<ImgInfoPopover info={slide} />)}
                         </div>
                     </div>
                 )

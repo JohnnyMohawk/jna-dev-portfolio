@@ -1,98 +1,146 @@
 export const SliderData = [
     {
         image: "./images/Let's go out and play!.jpg",
-        info: "Image Info 1"
+        title: "Image Info 1",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/Khailbut.png",
-        info: "Image Info 2"
+        title: "Image Info 2",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/Life_Mocked.jpg",
-        info: "Image Info 3"
+        title: "Image Info 3",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/The Great Chicago Ring of Fire.jpg",
-        info: "Image Info 4"
+        title: "Image Info 4",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/War. Horses of the Apocalypse 1 - 4.png",
-        info: "Image Info 5"
+        title: "Image Info 5",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/Conquest. Horses of the Apocalypse- 2 - 4.png",
-        info: "Image Info 6"
+        title: "Image Info 6",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/Famine. Horses of the Apocalypse- 3 - 4.jpg",
-        info: "Image Info 7"
+        title: "Image Info 7",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/Death. Horses of the Apocalypse- 4 - 4.png",
-        info: "Image Info 8"
+        title: "Image Info 8",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/tree-of-light.jpeg",
-        info: "Image Info 9"
+        title: "Image Info 9",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/for-dad.jpeg",
-        info: "Image Info 10"
+        title: "Image Info 10",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/triptych.png",
-        info: "Image Info 11"
+        title: "Image Info 11",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/triptych-1-3.jpeg",
-        info: "Image Info 12"
+        title: "Image Info 12",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/triptych-2-3.jpeg",
-        info: "Image Info 13"
+        title: "Image Info 13",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/triptych-3-3.jpeg",
-        info: "Image Info 14"
+        title: "Image Info 14",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/love.jpeg",
-        info: "Image Info 15"
+        title: "Image Info 15",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/namaste.jpeg",
-        info: "Image Info 16"
+        title: "Image Info 16",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/espolon.jpeg",
-        info: "Image Info 17"
+        title: "Image Info 17",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/wedding.PNG",
-        info: "Image Info 18"
+        title: "Image Info 18",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/pre-streetart-art.jpeg",
-        info: "Image Info 19"
+        title: "Image Info 19",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/figure-1.jpeg",
-        info: "Image Info 20"
+        title: "Image Info 20",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/figure-2.jpeg",
-        info: "Image Info 21"
+        title: "Image Info 21",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/energy-embrace.jpeg",
-        info: "Image Info 22"
+        title: "Image Info 22",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/city-breathes.jpeg",
-        info: "Image Info 23"
+        title: "Image Info 23",
+        medium: "Medium",
+        description: "Description",
     },
     {
         image: "./images/robo-v-skelly.JPG",
-        info: "Image Info 24"
+        title: "Image Info 24",
+        medium: "Medium",
+        description: "Description",
     },
 ]
