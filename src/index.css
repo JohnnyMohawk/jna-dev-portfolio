@@ -375,14 +375,15 @@ button:active {
 
 .bio {
   margin-top: 10px;
+  margin-bottom: 20px;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
   font-size: 24px;
   font-family: 'Open Sans Condensed', sans-serif;
   padding: 20px;
-  color: whitesmoke;
-  background-color: rgba(193, 207, 192, 0.2);
+  color: black;
+  background-color: white;
   border: black solid 2px;
   border-radius: 10px;
 }
@@ -441,6 +442,7 @@ button:active {
   font-size: 20px !important;
   font-family: 'Open Sans Condensed', sans-serif !important;
   margin: 15px !important;
+  border: 2px solid white !important;
 }
 
 .skillsButton:hover {
@@ -509,7 +511,7 @@ button:active {
   font-family: 'Open Sans Condensed', sans-serif !important;
 }
 
-ul {
+.modalUl {
   line-height: 25px;
   font-size: 25px !important;
   margin-left: 30px;
@@ -526,7 +528,7 @@ ul {
 }
 
 .closeButton:hover {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .company {
@@ -535,6 +537,8 @@ ul {
 
 .eduDeets {
   margin-left: 15px;
+  font-size: 22px;
+  line-height: 22px;
 }
 
 @media (max-width: 1150px) {
@@ -695,8 +699,9 @@ ul {
   }
 
   .bio {
-    width: 335px;
-    font-size: 18px;
+    width: 340px;
+    font-size: 21px;
+    line-height: 22px;
   }
 
   .eduSplitWrap {
@@ -830,6 +835,10 @@ ul {
     color: rgb(255, 255, 255);
     transform: translateY(2px);
     transition: all 0.9s ease-in-out;
+  }
+
+  #about-img  {
+    margin-top: -15px;
   }
 
 }

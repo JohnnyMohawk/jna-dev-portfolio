@@ -40,7 +40,7 @@ export default function SkillsModal() {
             Languages
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -54,7 +54,7 @@ export default function SkillsModal() {
             Frameworks
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>React</li>
               <li>Node.js</li>
               <li>Next.js</li>
@@ -72,7 +72,7 @@ export default function SkillsModal() {
             Databases
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>PostgreSQL</li>
               <li>MySQL</li>
               <li>SQLite</li>
@@ -86,7 +86,7 @@ export default function SkillsModal() {
             Tools
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>Git</li>
               <li>GitHub</li>
               <li>Bitbucket</li>

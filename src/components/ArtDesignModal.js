@@ -40,7 +40,7 @@ export default function ArtDesignModal() {
             Painting
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>Oil</li>
               <li>Acrylic</li>
               <li>Aerosol</li>
@@ -52,7 +52,7 @@ export default function ArtDesignModal() {
             Printmaking
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>Linocut</li>
               <li>Monoprint</li>
               <li>Etching</li>
@@ -66,7 +66,7 @@ export default function ArtDesignModal() {
             Sculpture
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>Ceramic</li>
               <li>Carving</li>
               <li>Metal Casting</li>
@@ -80,7 +80,7 @@ export default function ArtDesignModal() {
             Digital
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>Photoshop</li>
               <li>Illustrator</li>
               <li>Procreate</li>
@@ -96,7 +96,7 @@ export default function ArtDesignModal() {
             Woodworking
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
-            <ul>
+            <ul className='modalUl'>
               <li>Shaping & Molding</li>
               <li>Scrollwork</li>
               <li>Lathe Turning</li>
