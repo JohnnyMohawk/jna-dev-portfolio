@@ -1,0 +1,46 @@
+import * as React from 'react';
+import Popover from '@mui/material/Popover';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+
+export default function ImgInfoPopover({info}) {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? 'simple-popover' : undefined;
+
+  return (
+    <div>
+      <Button aria-describedby={id} variant="contained" className='imgInfoButton' onClick={handleClick}>
+        Info
+      </Button>
+      <Popover
+        sx={{ marginTop: '-75px'}}
+        id={id}
+        open={open}
+        anchorEl={anchorEl}
+        onClose={handleClose}
+        anchorOrigin={{
+            vertical: 'top',
+            horizontal: 'center',
+          }}
+          transformOrigin={{
+            vertical: 'center',
+            horizontal: 'center',
+          }}
+      >
+        <Typography sx={{ p: 1}}>{info}</Typography>
+        <Typography sx={{ p: 1}}>{info}</Typography>
+        <Typography sx={{ p: 1}}>{info}</Typography>
+      </Popover>
+    </div>
+  );
+}

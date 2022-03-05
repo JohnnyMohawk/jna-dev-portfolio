@@ -314,7 +314,7 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative; */
   height: 90vh;
   width: 100vw;
   margin-top: -100px;
@@ -322,7 +322,7 @@ button:active {
 }
 
 .art-image {
-  max-height: 75vh;
+  max-height: 70vh;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -431,6 +431,46 @@ button:active {
   align-items: center;
 }
 
+.imgButtWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes transitionIn {
+  0% {
+      opacity: 0;
+      transform: rotateX(-10deg);
+  }
+
+  10% {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  100% {
+      opacity: 1;
+      transform: rotateX(0);
+  }
+}
+
+.imgInfoButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  color: black !important;
+  background-color: white !important;
+  text-shadow: none;
+  font-size: 20px !important;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  margin: 15px !important;
+  border: 2px solid white !important;
+  animation: transitionIn 4s;
+  /* position: absolute;
+  bottom: 0; */
+}
+
 .skillsButton {
   display: flex;
   justify-content: center;
@@ -445,7 +485,8 @@ button:active {
   border: 2px solid white !important;
 }
 
-.skillsButton:hover {
+.skillsButton:hover,
+.imgInfoButton:hover {
   font-size: 20px;
   background-color: black !important;
   color: red !important;
@@ -659,11 +700,6 @@ button:active {
 
 @media (max-width: 500px) {
 
-  .art-wrapper {
-    margin-left: 0;
-    margin-top: 25px;
-  }
-
   .menu-btn {
     right: 30px;
   }
@@ -723,13 +759,24 @@ button:active {
     align-items: center;
   }
 
-  .art-wrapper {
+  /* .art-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 64vh;
     position: relative;
+  } */
+
+  .art-wrapper {
+    margin-left: 0;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 64vh;
+    /* position: relative; */
   }
 
   .art-container {
@@ -751,6 +798,11 @@ button:active {
     position: absolute;
     bottom: 5%;
     left: 10px;
+  }
+
+  .imgInfoButton {
+    position: absolute;
+    bottom: -90px;
   }
 
   .art-image {

@@ -57,7 +57,6 @@ export default function ExperienceModal() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography sx={{ fontFamily: 'Open Sans Condensed', fontSize: '20px', lineHeight: '22px', marginTop: '-20px' }}>
-              <br/>
               <p>Nov 2021 - Present, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>New York, NY</em></p>
               <ul className='jobDetails'>
                 <li>Analyze user needs and develop software solutions</li>
@@ -250,7 +249,7 @@ export default function ExperienceModal() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
+        {/* <Accordion expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel4bh-content"
@@ -289,7 +288,7 @@ export default function ExperienceModal() {
               </ul>
             </Typography>
           </AccordionDetails>
-        </Accordion>
+        </Accordion> */}
         <Accordion expanded={expanded === 'panel12'} onChange={handleChange('panel12')}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}

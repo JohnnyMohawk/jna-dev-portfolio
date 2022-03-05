@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import { SliderData } from './SliderData'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
+import ImgInfoPopover from './ImgInfoModal'
 
 const ImageSlider = ({ slides }) => {
     const [currentImage, setCurrentImage] = useState(0)
     const length = slides.length
 
     const nextSlide = () => {
-        setCurrentImage(currentImage === length - 1 ? 0 : currentImage + 1)
+        setCurrentImage(currentImage === length - 1 ? 0 : currentImage + 1);
+        console.log(slides)
     }
 
     const prevSlide = () => {
@@ -32,6 +34,9 @@ const ImageSlider = ({ slides }) => {
                 return (
                     <div className={index === currentImage ? "slide active" : "slide"} key={index}>
                         {index === currentImage && (<img src={slide.image} alt={index} className="art-image" />)}
+                        <div className='imgButtWrap'>
+                            {index === currentImage && (<ImgInfoPopover info={slide.info} />)}
+                        </div>
                     </div>
                 )
             })}
