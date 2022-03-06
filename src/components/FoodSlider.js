@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FoodData } from './FoodData'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
+import ImgInfoPopover from './ImgInfoModal'
 
 const FoodSlider = ({ slides }) => {
     const [currentImage, setCurrentImage] = useState(0)
@@ -32,6 +33,9 @@ const FoodSlider = ({ slides }) => {
                 return (
                     <div className={index === currentImage ? "slide active" : "slide"} key={index}>
                         {index === currentImage && (<img src={slide.image} alt={index} className="art-image" />)}
+                        <div className='imgButtWrap'>
+                            {index === currentImage && (<ImgInfoPopover info={slide} />)}
+                        </div>
                     </div>
                 )
             })}

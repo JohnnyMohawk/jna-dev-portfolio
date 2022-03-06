@@ -37,9 +37,9 @@ export default function ImgInfoPopover({info}) {
             horizontal: 'center',
           }}
       >
-        <Typography sx={{ p: 1, lineHeight: '10px'}}>{info.title}</Typography>
-        <Typography sx={{ p: 1, lineHeight: '10px'}}>{info.medium}</Typography>
-        <Typography sx={{ p: 1, lineHeight: '10px'}}>{info.description}</Typography>
+        <Typography sx={{ p: 1, lineHeight: '10px', fontFamily: 'Josefin Sans'}}>{info.title}</Typography>
+        <Typography sx={{ p: 1, lineHeight: '10px', fontFamily: 'Open Sans Condensed'}}>{info.medium}</Typography>
+        <Typography sx={{ p: 1, lineHeight: '18px', maxWidth: '250px', fontFamily: 'Open Sans Condensed', fontSize: '16px'}}>{info.description}</Typography>
       </Popover>
     </div>
   );
