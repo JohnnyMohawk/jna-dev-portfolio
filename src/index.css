@@ -277,6 +277,7 @@ button:active {
 .contacts {
   background-image: var(--background-image);
   height: 100vh;
+  overflow: hidden;
 }
 
 .contacts h1 {
