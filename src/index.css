@@ -719,8 +719,16 @@ button:active {
     font-size: 38px;
   }
 
+  .contacts ul {
+    width: 100vw;
+  }
+
+  .contacts ul li {
+    margin-bottom: 20px;
+  }
+
   .contacts ul li a {
-    font-size: 11px;
+    font-size: 22px;
   }
 
   .contacts h1, .projects h1 {

@@ -44,7 +44,7 @@ const Homepage = () => {
         <>
         <section className="homepage">
             <div className="overlay">
-            <img className="mobile-bg" src="./images/spiral-still.png" />
+            <img className="mobile-bg" src="./images/bwbillseyes.jpg" />
                 <div className="home-wrapper"></div>
                 <Link to="/projects">
                     <img className="home-logo" id="edit-img" src="./images/project-6.png" />
