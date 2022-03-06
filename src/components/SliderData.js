@@ -6,6 +6,12 @@ export const SliderData = [
         description: "Looking past the walls of mortality into unknown infinite beauty.",
     },
     {
+        image: "./images/The Leap.jpeg",
+        title: "The Leap",
+        medium: "Digital drawing, Procreate, 2022",
+        description: "Sometimes to get to where you want to go, you have to take a leap.",
+    },
+    {
         image: "./images/Khailbut.png",
         title: "Khailbut",
         medium: "Digital drawing, Procreate, 2022",
@@ -29,18 +35,6 @@ export const SliderData = [
         medium: "Digital drawing, Procreate, 2022",
         description: "The fiery horse of war has rides into town.",
     },
-    // {
-    //     image: "./images/Conquest. Horses of the Apocalypse- 2 - 4.png",
-    //     title: "Image Info 6",
-    //     medium: "Medium",
-    //     description: "Description",
-    // },
-    // {
-    //     image: "./images/Famine. Horses of the Apocalypse- 3 - 4.jpg",
-    //     title: "Image Info 7",
-    //     medium: "Medium",
-    //     description: "Description",
-    // },
     {
         image: "./images/Death. Horses of the Apocalypse- 4 - 4.png",
         title: "Death",
@@ -48,16 +42,28 @@ export const SliderData = [
         description: "Death. The last chapter of any true story. The red horse named War is all that remains. He lies dead in a dead world, a world he killed.",
     },
     {
-        image: "./images/tree-of-light.jpeg",
-        title: "Tree of Light",
-        medium: 'Ink, oil pastel on MDF panel. 24" X 12" 2017',
-        description: "Live in light.",
+        image: "./images/Down in the Valley Below.jpeg",
+        title: "Down in the Valley",
+        medium: 'Pencil, marker, gold paint, collage, 9" X 15", 2021',
+        description: "I approach dark and heavy subjects with bright colors and a light heart.",
     },
     {
         image: "./images/for-dad.jpeg",
         title: "For Vern. I love you dad.",
         medium: 'Pen, ink, colored pencil, collage. 36" X 36", 2021',
         description: "In 2020, I lost my father. The following year, I made this piece for my mother for Valentines day.",
+    },
+    {
+        image: "./images/Fred the Gnome.jpeg",
+        title: "Fred the Gnome",
+        medium: 'Pen, ink, colored pencil, collage. 36" X 36", 2021',
+        description: "In 2020, I lost my father. The following year, I made this piece for my mother for Valentines day.",
+    },
+    {
+        image: "./images/tree-of-light.jpeg",
+        title: "Tree of Light",
+        medium: 'Ink, oil pastel on MDF panel. 24" X 12" 2017',
+        description: "Live in light.",
     },
     {
         image: "./images/triptych.png",
@@ -67,19 +73,19 @@ export const SliderData = [
     },
     {
         image: "./images/triptych-1-3.jpeg",
-        title: "A Picture of Good Health: 1",
+        title: "Mind",
         medium: 'Pencil, ink, oil stick, cedar paper, gold leaf, collage. 12" X 36", 2012',
         description: "",
     },
     {
         image: "./images/triptych-2-3.jpeg",
-        title: "Image Info 13",
+        title: "Body",
         medium: 'Pencil, ink, oil stick, cedar paper, gold leaf, collage. 12" X 36", 2012',
         description: "",
     },
     {
         image: "./images/triptych-3-3.jpeg",
-        title: "Image Info 14",
+        title: "Soul",
         medium: 'Pencil, ink, oil stick, cedar paper, gold leaf, collage. 12" X 36", 2012',
         description: "",
     },
@@ -143,5 +149,17 @@ export const SliderData = [
         title: "Robot Vs. Skelly",
         medium: 'Monoprint, 15" X 12" 2001',
         description: "Every since I was a little kid, I have always loved drawing robots and skeletons. Here's an old one I came across.",
+    },
+    {
+        image: "./images/The Witch.jpeg",
+        title: "The Witch",
+        medium: "Digital drawing, Procreate, 2022",
+        description: "Part of an upcoming series on superstitions and their origins. Many modern superstitions date back to the medieval times and the fear of witchcraft. This piece is based off of SALIGIA art common in the 1400's.",
+    },
+    {
+        image: "./images/The Witch's Cat.jpeg",
+        title: "The Witch's Cat",
+        medium: "Digital drawing, Procreate, 2022",
+        description: "Part of an upcoming series on superstitions and their origins. Many modern superstitions date back to the medieval times and the fear of witchcraft. During this time, single women who kept cats as pets were often persecuted as witches.",
     },
 ]
