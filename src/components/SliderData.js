@@ -2,49 +2,49 @@ export const SliderData = [
     {
         image: "./images/Let's go out and play!.jpg",
         title: "Let's go out and play!",
-        medium: "Digital drawing, Procreate, 2022",
+        medium: "Digital drawing, Procreate. 2022",
         description: "Looking past the walls of mortality into unknown infinite beauty.",
     },
     {
         image: "./images/The Leap.jpeg",
         title: "The Leap",
-        medium: "Digital drawing, Procreate, 2022",
+        medium: "Digital drawing, Procreate. 2022",
         description: "Sometimes to get to where you want to go, you have to take a leap.",
     },
     {
         image: "./images/Khailbut.png",
         title: "Khailbut",
-        medium: "Digital drawing, Procreate, 2022",
+        medium: "Digital drawing, Procreate. 2022",
         description: "Every culture has stories of the shadow people. The Ancient Egyptians referred to them as the khailbut and believe they were one of our seven souls. They believed that the shadow was always present, even after death. In The Egyptian Book of the Dead, the deceased was often depicted as a shadow, or silhouette, with little descriptive features. It was not evil unless the deceased was evil in life.",
     },
     {
         image: "./images/Life_Mocked.jpg",
         title: "Welcome to the Headroom",
-        medium: "Digital drawing, Procreate, 2022",
+        medium: "Digital drawing, Procreate. 2022",
         description: "As the billionaires guide us into the Metaverse, Max Headroom has been there, waiting for us since 1985.",
     },
     {
         image: "./images/The Great Chicago Ring of Fire.jpg",
         title: "The Great Chicago Ring of Fire",
-        medium: "Digital drawing, Procreate, 2022",
+        medium: "Digital drawing, Procreate. 2022",
         description: "In 2021, Chicago experienced one of its most violent and crime riddled years in recorded history. In response to this failure of leadership, I created this portrait of Chicago Mayor Lori Lightfoot.",
     },
     {
         image: "./images/War. Horses of the Apocalypse 1 - 4.png",
         title: "War",
-        medium: "Digital drawing, Procreate, 2022",
+        medium: "Digital drawing, Procreate. 2022",
         description: "The fiery horse of war has rides into town.",
     },
     {
         image: "./images/Death. Horses of the Apocalypse- 4 - 4.png",
         title: "Death",
-        medium: "Digital drawing, Procreate, 2022",
+        medium: "Digital drawing, Procreate. 2022",
         description: "Death. The last chapter of any true story. The red horse named War is all that remains. He lies dead in a dead world, a world he killed.",
     },
     {
         image: "./images/Down in the Valley Below.jpeg",
         title: "Down in the Valley",
-        medium: 'Pencil, marker, gold paint, collage, 9" X 15", 2021',
+        medium: 'Pencil, marker, gold paint, collage. 9" X 15", 2021',
         description: "I approach dark and heavy subjects with bright colors and a light heart.",
     },
     {
@@ -56,8 +56,8 @@ export const SliderData = [
     {
         image: "./images/Fred the Gnome.jpeg",
         title: "Fred the Gnome",
-        medium: 'Pen, ink, colored pencil, collage. 36" X 36", 2021',
-        description: "In 2020, I lost my father. The following year, I made this piece for my mother for Valentines day.",
+        medium: 'Pencil on paper. 6" X 9", 2021',
+        description: "Fred is grumpy... Every time it snows, everyone thinks he's an elf. He wants people to know that there is a big difference!",
     },
     {
         image: "./images/tree-of-light.jpeg",
