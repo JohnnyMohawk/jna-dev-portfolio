@@ -55,7 +55,7 @@ export const SliderData = [
     },
     {
         image: "./images/for-dad.jpeg",
-        title: "For Vern. I love you.",
+        title: "For Vern. I love you dad.",
         medium: 'Pen, ink, colored pencil, collage. 36" X 36", 2021',
         description: "In 2020, I lost my father. The following year, I made this piece for my mother for Valentines day.",
     },

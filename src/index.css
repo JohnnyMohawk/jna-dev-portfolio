@@ -450,14 +450,16 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 120px;
-  color: black !important;
-  background-color: white !important;
+  /* width: 120px; */
+  color: white !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
   text-shadow: none;
   font-size: 20px !important;
+  line-height: 18px !important;
   font-family: 'Open Sans Condensed', sans-serif !important;
-  margin: 15px !important;
-  border: 2px solid white !important;
+  margin: 10px !important;
+  border: 2px solid transparent !important;
   animation: transitionIn 1s;
 }
 
@@ -784,7 +786,7 @@ button:active {
 
   .imgInfoButton {
     position: absolute;
-    bottom: -90px;
+    /* bottom: -90px; */
   }
 
   .art-image {
@@ -885,6 +887,10 @@ button:active {
 
   #about-img  {
     margin-top: -15px;
+  }
+
+  .slider {
+    margin-top: 0px;
   }
 
 }

@@ -63,6 +63,6 @@ export const FoodData = [
         image: "./images/six-foot-burrito.jpg",
         title: "Family Meal Fun!",
         medium: "GT Fish & Oyster, 2016",
-        description: "For Diego's last day we made 8 foot long burrito suizo! Look how excited he is!",
+        description: "For Diego's last day we made an 8 foot burrito suizo! Look how excited he is!",
     },
 ]

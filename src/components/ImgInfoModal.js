@@ -20,7 +20,7 @@ export default function ImgInfoPopover({info}) {
   return (
     <div>
       <Button aria-describedby={id} variant="contained" className='imgInfoButton' onClick={handleClick}>
-        Info
+        {info.title} <br/> (info)
       </Button>
       <Popover
         sx={{ marginTop: '-140px'}}
