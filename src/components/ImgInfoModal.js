@@ -23,7 +23,7 @@ export default function ImgInfoPopover({info}) {
         Info
       </Button>
       <Popover
-        sx={{ marginTop: '-75px'}}
+        sx={{ marginTop: '-140px'}}
         id={id}
         open={open}
         anchorEl={anchorEl}
