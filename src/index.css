@@ -719,6 +719,16 @@ button:active {
     font-size: 22px;
   }
 
+  .contacts ul li a:hover {
+    font-size: 22px;
+    color: white;
+  }
+
+  .contacts ul li a:active {
+    font-size: 22px;
+    color: red;
+  }
+
   .contacts h1, .projects h1 {
     padding: 50px 30px;
   }
@@ -895,5 +905,44 @@ button:active {
     margin-top: -30px;
     height: 80vh;
   }
+
+  .skillsButton:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    color: black !important;
+    background-color: white !important;
+    text-shadow: none;
+    font-size: 20px !important;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    margin: 15px !important;
+    border: 2px solid white !important;
+  }
+
+  .imgInfoButton:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 120px; */
+    color: white !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none;
+    font-size: 20px !important;
+    line-height: 18px !important;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    margin: 10px !important;
+    border: 2px solid transparent !important;
+    animation: transitionIn 1s;
+  }
+
+.skillsButton:active,
+.imgInfoButton:active {
+  font-size: 20px;
+  background-color: black !important;
+  color: red !important;
+  border: 2px solid red !important;
+}
 
 }
