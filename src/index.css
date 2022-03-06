@@ -290,6 +290,7 @@ button:active {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  bottom: 0;
 }
 
 .contacts ul li a {
@@ -938,12 +939,12 @@ button:active {
     animation: transitionIn 1s;
   }
 
-.skillsButton:active,
-.imgInfoButton:active {
-  font-size: 20px;
-  background-color: black !important;
-  color: red !important;
-  border: 2px solid red !important;
-}
+  .skillsButton:active,
+  .imgInfoButton:active {
+    font-size: 20px;
+    background-color: black !important;
+    color: red !important;
+    border: 2px solid red !important;
+  }
 
 }
