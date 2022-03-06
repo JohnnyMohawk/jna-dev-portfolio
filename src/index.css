@@ -443,7 +443,7 @@ button:active {
       transform: rotateX(-10deg);
   }
 
-  10% {
+  30% {
     opacity: 0;
     transform: rotateX(-10deg);
   }
@@ -466,7 +466,7 @@ button:active {
   font-family: 'Open Sans Condensed', sans-serif !important;
   margin: 15px !important;
   border: 2px solid white !important;
-  animation: transitionIn 4s;
+  animation: transitionIn 1s;
   /* position: absolute;
   bottom: 0; */
 }
