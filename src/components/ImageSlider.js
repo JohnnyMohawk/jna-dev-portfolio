@@ -32,11 +32,13 @@ const ImageSlider = ({ slides }) => {
             </div>
             {SliderData.map((slide, index) => {
                 return (
+                    <div className='spaceWrap'>
                     <div className={index === currentImage ? "slide active" : "slide"} key={index}>
                         {index === currentImage && (<img src={slide.image} alt={index} className="art-image" />)}
-                        <div className='imgButtWrap'>
-                            {index === currentImage && (<ImgInfoPopover info={slide} />)}
-                        </div>
+                    </div>
+                    <div className='imgButtWrap'>
+                        {index === currentImage && (<ImgInfoPopover info={slide} />)}
+                    </div>
                     </div>
                 )
             })}

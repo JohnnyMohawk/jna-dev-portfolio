@@ -18,7 +18,7 @@ export default function ImgInfoPopover({info}) {
   const id = open ? 'simple-popover' : undefined;
 
   return (
-    <div>
+    <div className="infoButtonComp">
       <Button aria-describedby={id} variant="contained" className='imgInfoButton' onClick={handleClick}>
         Info
       </Button>

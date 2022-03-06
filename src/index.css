@@ -310,10 +310,20 @@ button:active {
   text-align: center;
 }
 
-.slider {
+/* .spaceWrap {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-content:space-between;
+} */
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* justify-content:space-evenly; */
   height: 90vh;
   width: 100vw;
   margin-top: -100px;
@@ -459,6 +469,7 @@ button:active {
   margin: 15px !important;
   border: 2px solid white !important;
   animation: transitionIn 1s;
+  position: absolute;
 }
 
 .skillsButton {
@@ -886,5 +897,6 @@ button:active {
   #about-img  {
     margin-top: -15px;
   }
+
 
 }
