@@ -9,7 +9,7 @@ export const FoodData = [
         image: "./images/red-mullet.jpg",
         title: "Cut the Mullet",
         medium: "GT Fish & Oyster, 2015",
-        description: "Red mullet, sweet corn, \xa0 charred ramp puree, sweet corn, panzanella, tomato, watercress, evoo.",
+        description: "Red mullet, sweet corn, charred ramp puree, sweet corn, panzanella, tomato, watercress, evoo.",
     },
     {
         image: "./images/octopus.jpg",
