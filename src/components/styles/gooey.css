@@ -1,0 +1,57 @@
+html {
+    background: #111111;
+  }
+  
+  svg * {
+    transform-origin: 70%;
+  }
+
+  .gooeyBg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  @-webkit-keyframes blob_one {
+    to {
+      transform: rotate(-1turn) translate(-12.5%, -12.5%);
+    }
+  }
+  @keyframes blob_one {
+    to {
+      transform: rotate(-1turn) translate(-12.5%, -12.5%);
+    }
+  }
+  @-webkit-keyframes blob_two {
+    to {
+      transform: rotate(-1turn) translate(12.5%, -12.5%);
+    }
+  }
+  @keyframes blob_two {
+    to {
+      transform: rotate(-1turn) translate(12.5%, -12.5%);
+    }
+  }
+  @-webkit-keyframes blob_three {
+    to {
+      transform: rotate(-1turn) translate(-12.5%, 12.5%);
+    }
+  }
+  @keyframes blob_three {
+    to {
+      transform: rotate(-1turn) translate(-12.5%, 12.5%);
+    }
+  }
+  @-webkit-keyframes blob_four {
+    to {
+      transform: rotate(-1turn) translate(-12.5%, -12.5%);
+    }
+  }
+  @keyframes blob_four {
+    to {
+      transform: rotate(-1turn) translate(-12.5%, -12.5%);
+    }
+  }
+  

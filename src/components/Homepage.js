@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { SayButton } from 'react-say'
+import GooeyBG from './Gooey';
 
 const Homepage = () => {
 
@@ -18,6 +19,7 @@ const Homepage = () => {
         <>
             <section className="homepage">
                 <div className="overlay">
+                    {/* <GooeyBG className='gooeyBg' /> */}
                 <video className='bgVid' src="./images/spiral.mp4" autoPlay loop muted />
                     <div className="home-wrapper"></div>
                     <Link to="/projects">
