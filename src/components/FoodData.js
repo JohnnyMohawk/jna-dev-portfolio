@@ -1,7 +1,7 @@
 export const FoodData = [
     {
         image: "./images/mussels-lamb.jpg",
-        title: "Mussels, Lamb & Beer, Oh My!",
+        title: "Mussels, Lamb & Beer",
         medium: "Gaslight Bar & Grille, 2010",
         description: "PEI mussels, Half Acre Fader, Spanish chorizo, fennel, garlic, chili flake, sourdough. \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 Colorado lamb, Chimichurri, pommes frites.",
     },
@@ -43,7 +43,7 @@ export const FoodData = [
     },
     {
         image: "./images/liquid-nitrogen.jpg",
-        title: "Weird Science: Kitchen Edition",
+        title: "Weird Science Food",
         medium: "Alinea, 2013",
         description: 'When your station prep list includes "Fill liquid nitrogen dewar"!',
     },
