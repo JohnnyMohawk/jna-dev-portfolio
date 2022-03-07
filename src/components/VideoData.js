@@ -3,7 +3,7 @@ export const VideoData = [
         image: "./images/Fingers Crossed 720.mp4",
         title: "Sticks & Stones",
         medium: "Digital animation, RoughAnimator & Procreate. 2022",
-        description: "Looking past the walls of mortality into unknown infinite beauty.",
+        description: "I currently have no words to describe my thoughts and emotions about recent geopolitical events… I made this short animation to express my feelings on the Russian invasion and occupation of Ukraine 🇺🇦💙💛.",
     },
     {
         image: "./images/The_Witch_Animation.mp4",
