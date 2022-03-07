@@ -1,4 +1,3 @@
-// import "../components/styles/gooey.css";
 import Goo from "gooey-react";
 import Color from "color";
 
