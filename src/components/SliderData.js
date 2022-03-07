@@ -114,18 +114,6 @@ export const SliderData = [
         medium: "Digital painting, Freshpaint, 2014",
         description: "My first digital painting. Done for our wedding thank you cards.",
     },
-    // {
-    //     image: "./images/pre-streetart-art.jpeg",
-    //     title: "Image Info 19",
-    //     medium: "Medium",
-    //     description: "Description",
-    // },
-    // {
-    //     image: "./images/figure-1.jpeg",
-    //     title: "Image Info 20",
-    //     medium: "Medium",
-    //     description: "Description",
-    // },
     {
         image: "./images/figure-2.jpeg",
         title: "Reclining Figure",
