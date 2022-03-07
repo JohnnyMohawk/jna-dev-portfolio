@@ -33,7 +33,7 @@ const VideoSlider = ({ slides }) => {
             {VideoData.map((slide, index) => {
                 return (
                     <div className={index === currentImage ? "slide active" : "slide"} key={index}>
-                        {index === currentImage && (<video src={slide.image} autoPlay loop muted className="art-image" />)}
+                        {index === currentImage && (<video src={slide.image} autoPlay loop muted controls className="art-image" />)}
                         <div className='imgButtWrap'>
                             {index === currentImage && (<ImgInfoPopover info={slide} />)}
                         </div>
