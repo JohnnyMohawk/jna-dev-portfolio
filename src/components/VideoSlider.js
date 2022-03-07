@@ -9,14 +9,12 @@ const VideoSlider = ({ slides }) => {
 
     const nextSlide = () => {
         setCurrentImage(currentImage === length - 1 ? 0 : currentImage + 1);
-        console.log(slides)
     }
 
     const prevSlide = () => {
         setCurrentImage(currentImage === 0 ? length - 1 : currentImage - 1)
     }
 
-    console.log(currentImage)
 
     if(!Array.isArray(slides) || slides.length <= 0) {
         return null

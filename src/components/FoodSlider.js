@@ -15,7 +15,6 @@ const FoodSlider = ({ slides }) => {
         setCurrentImage(currentImage === 0 ? length - 1 : currentImage - 1)
     }
 
-    console.log(currentImage)
 
     if(!Array.isArray(slides) || slides.length <= 0) {
         return null
