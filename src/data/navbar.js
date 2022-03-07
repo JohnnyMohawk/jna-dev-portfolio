@@ -28,6 +28,11 @@ export const navbar = [
     },
     {
         id: uuidv4(),
+        title: "Videos",
+        url: "/videos"
+    },
+    {
+        id: uuidv4(),
         title: "Connect",
         url: "/contact-me"
     },

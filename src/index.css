@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-video,
+.bgVid,
 .mobile-bg {
   object-fit: cover;
   width: 100%;
@@ -16,6 +16,13 @@ video,
   position: fixed;
   z-index: -1;
 }
+
+/* .testVid {
+  z-index: 10000000;
+  height: 400px;
+  width: auto;
+  border-radius: 20px;
+} */
 
 button {
   font-family: 'Josefin Sans', sans-serif;
@@ -319,6 +326,15 @@ button:active {
   width: 100vw;
   margin-top: -100px;
 
+}
+
+.sliderVid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  margin-top: -100px;
 }
 
 .art-image {

@@ -11,6 +11,7 @@ import Contacts from "./pages/Contacts";
 import Art from "./pages/Art";
 import About from "./pages/About";
 import Food from "./pages/Food";
+import Videos from "./pages/Videos";
 
 const App = () => {
   return (
@@ -28,6 +29,9 @@ const App = () => {
         </Route>
         <Route path="/my-plates">
           <Food />
+        </Route>
+        <Route path="/videos">
+          <Videos />
         </Route>
         <Route path="/about-me">
           <About />

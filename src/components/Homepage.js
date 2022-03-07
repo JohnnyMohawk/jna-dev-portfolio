@@ -18,7 +18,7 @@ const Homepage = () => {
         <>
             <section className="homepage">
                 <div className="overlay">
-                <video src="./images/spiral.mp4" autoPlay loop muted />
+                <video className='bgVid' src="./images/spiral.mp4" autoPlay loop muted />
                     <div className="home-wrapper"></div>
                     <Link to="/projects">
                         <img className="home-logo" id="edit-img" src="./images/project-6.png" />
