@@ -16,7 +16,7 @@ const About = () => {
                 <Link to="/contact-me">
                     <img className="home-logo" id="about-img" src="./images/project-6.png" />
                 </Link>
-                <h3 id="about-header"><span className='aboutln1'>writer && readerOfCode || maker && doerOfThings</span><br></br> cooker && eaterOfFood || rescuer && loverOfDogs</h3>
+                <h3 id="about-header"><span className='aboutln1'> <span className='aboutSpace'>&nbsp;</span> writer && readerOfCode || maker && doerOfThings</span><br></br> <span className='aboutSpace'>&nbsp;</span> cooker && eaterOfFood || rescuer && loverOfDogs</h3>
                 <div className='centerModalDiv'>
                     <div className='modalDiv'>
                         <div className='skillExpWrap'>

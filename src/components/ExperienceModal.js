@@ -178,9 +178,9 @@ export default function ExperienceModal() {
             <Typography sx={{ fontFamily: 'Open Sans Condensed', fontSize: '20px', lineHeight: '22px', marginTop: '-20px' }}>
               <p>Aug 2010 - Dec 2013, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>Chicago, IL</em></p>
               <ul className='jobDetails'>
-                <li>Worked under Chef Grant Achatz in his Three Michelin Star kitchen.</li>
-                <li>Learned and experimented with the concepts of Molecular Gastromy</li>
-                <li>Made floating food on a nightly basis!</li>
+                <li>As chef of the first 4C group restaurant, I was part of a massive expansion, growing the company from 6 to 16 establishments</li>
+                <li>Responsible for all purchasing, scheduling, menu planning, hiring, maintaining food & labor costs</li>
+                <li>Planned special food and drink menus for monthly themed sold out beer dinners.</li>
               </ul>
             </Typography>
           </AccordionDetails>
