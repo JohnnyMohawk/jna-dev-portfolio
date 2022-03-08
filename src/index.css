@@ -768,12 +768,20 @@ button:active {
     flex-direction: column;
   }
 
-}
-
-@media (max-width: 640px) {
   .bio {
     width: 500px;
   }
+
+  .centering-div {
+    padding-bottom: 200px;
+  }
+
+}
+
+@media (max-width: 640px) {
+  /* .bio {
+    width: 500px;
+  } */
   #about-header {
     font-size: 16px;
     line-height: 18px;
@@ -781,6 +789,7 @@ button:active {
   .aboutln1 {
     margin-left: -4px;
   }
+  
 }
 
 @media (max-width: 500px) {
