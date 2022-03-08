@@ -18,7 +18,7 @@
 }
 
 html {
-  background: #111111;
+  /* background-image: linear-gradient(120deg, rgba(0,0,0,1),rgba(0,0,0,0.9)); */
 }
 
 svg * {
@@ -127,6 +127,16 @@ button:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contacts1 {
+  background-attachment: relative;
+  overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
 }
 
 .pageTitle {
@@ -349,7 +359,8 @@ button:active {
   height: 100vh;
 }
 
-.contacts h1 {
+.contacts h1,
+.contacts1 h1 {
   padding: 50px 80px;
   color: white;
 }
@@ -501,6 +512,7 @@ button:active {
   margin-right: auto;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(120deg, rgba(0,0,0,1),rgba(0,0,0,0.9));
 }
 
 .imgButtWrap {

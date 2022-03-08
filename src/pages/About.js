@@ -4,12 +4,14 @@ import EducationModal from '../components/EducationModal';
 import ExperienceModal from '../components/ExperienceModal';
 import OtherModal from '../components/OtherModal';
 import SkillsModal from '../components/SkillsModal';
+import GooeyBG from "../components/Gooey"
 
 const About = () => {
     return (
         <>
             <div className="centering-div">
-            <section className="contacts">
+            <GooeyBG className="gooeyBg" />
+            <section className="contacts1">
                 <h1>About Me</h1>
                 <Link to="/contact-me">
                     <img className="home-logo" id="about-img" src="./images/project-6.png" />
