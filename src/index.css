@@ -1,5 +1,5 @@
 :root {
-  /* --background-image: linear-gradient(120deg, rgba(0,0,0,1),rgba(0,0,0,0.9)); */
+  --background-image: linear-gradient(120deg, rgba(0,0,0,1),rgba(0,0,0,0.9));
 }
 
 * {
@@ -127,8 +127,6 @@ button:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
-  top: 0;
 }
 
 .pageTitle {
@@ -503,7 +501,6 @@ button:active {
   margin-right: auto;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .imgButtWrap {
