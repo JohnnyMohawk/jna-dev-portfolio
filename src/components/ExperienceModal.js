@@ -180,7 +180,7 @@ export default function ExperienceModal() {
               <ul className='jobDetails'>
                 <li>As chef of the first 4C group restaurant, I was part of a massive expansion, growing the company from 6 to 16 establishments</li>
                 <li>Responsible for all purchasing, scheduling, menu planning, hiring, maintaining food & labor costs</li>
-                <li>Planned special food and drink menus for monthly themed sold out beer dinners.</li>
+                <li>Planned special food and drink menus for monthly themed sold out prix fixe dinners.</li>
               </ul>
             </Typography>
           </AccordionDetails>
