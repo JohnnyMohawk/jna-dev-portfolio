@@ -861,6 +861,7 @@ button:active {
     width: 340px;
     font-size: 18px;
     line-height: 19px;
+    margin-top: 4px;
   }
 
   .eduSplitWrap {
@@ -1056,14 +1057,29 @@ button:active {
     /* margin-left: 17px; */
   }
 
+  .centerModalDiv {
+    margin-top: -8px;
+  }
+
   .skillsButton {
+    margin: 5px !important;
+    /* font-size: 15px !important; */
+    /* width: 85px !important; */
+
+  }
+
+  .skillsButton:hover {
+    margin: 5px !important;
+  }
+
+  .skillsButton:active {
     margin: 5px !important;
   }
 
   #about-img {
     max-width: 100px;
     display: block;
-    margin-top: -40px;
+    margin-top: -45px;
     margin-left: auto;
     margin-right: auto;
   }
