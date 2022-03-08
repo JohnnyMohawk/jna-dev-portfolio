@@ -359,7 +359,7 @@ button:active {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  margin-bottom: -30vh;
+  /* margin-bottom: -30vh; */
 }
 
 .contacts ul li a {
@@ -707,12 +707,17 @@ button:active {
 }
 
 @media (max-width: 910px) {
+  .contacts ul {
+    width: 100vw;
+  }
+
   .contacts ul li a {
-    font-size: 16px;
+    font-size: 22px;
+
   }
 
   .contacts ul li a:hover {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   #home-logo {
