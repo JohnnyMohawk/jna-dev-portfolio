@@ -73,5 +73,9 @@
     .projects .cards {
       grid-template-columns: 1fr;
     }
+
+    .contacts h1, .projects h1, .contacts1 h1 {
+        padding: 50px 30px;
+      }
   
   }

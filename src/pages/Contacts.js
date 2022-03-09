@@ -1,5 +1,6 @@
 import { FaTwitter, FaEnvelope, FaPalette, FaLinkedin, FaRedditAlien, FaPhoneAlt } from "react-icons/fa"
 import GooeyBG from "../components/Gooey"
+import './contacts.css'
 
 const Contacts = () => {
     return (

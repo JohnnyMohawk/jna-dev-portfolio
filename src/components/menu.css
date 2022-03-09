@@ -1,0 +1,42 @@
+.header {
+    position: absolute;
+    right: 0;
+    height: 0;
+    overflow: hidden;
+    width: 200px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .header.open {
+    height: 100vh;
+    background-color: rgba(248, 4, 4, 0.8);
+    z-index: 99999;
+  }
+  
+  .header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    z-index: 99999;
+  }
+  
+  .header nav ul li {
+    margin: 20px 0;
+  }
+  
+  .menu-btn {
+    position: fixed;
+    right: 80px;
+    margin-top: 40px;
+    z-index: 9999999;
+  }
+  
+  @media (max-width: 500px) {
+    .menu-btn {
+      right: 30px;
+      margin-top: 40px;
+    }
+  }

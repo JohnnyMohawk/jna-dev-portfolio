@@ -2,6 +2,7 @@ import { useState } from "react"
 import {BiMenu} from "react-icons/bi"
 import { Link } from "react-router-dom"
 import { navbar } from "../data/navbar"
+import './menu.css'
 
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false)

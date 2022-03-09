@@ -1,5 +1,6 @@
 import Goo from "gooey-react";
 import Color from "color";
+import './gooey.css'
 
 export default function GooeyBG() {
   let color1 = Color("#870929");
