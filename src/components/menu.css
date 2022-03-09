@@ -55,7 +55,7 @@
     }
   }
   
-  @media (max-width: 1500px) and (min-width: 1151px) {
+  @media (max-width: 3000px) and (min-width: 1151px) {
     .menu-btn {
       /* right: 30px; */
       margin-top: 15px;
