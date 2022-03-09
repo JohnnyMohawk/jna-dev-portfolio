@@ -1,6 +1,7 @@
 import {FaPlay, FaGithub} from "react-icons/fa"
 import {useState} from "react"
 import { projects } from "../data/projects"
+import './projects.css'
 
 const Projects = () => {
     // eslint-disable-next-line

@@ -176,9 +176,7 @@ button:active {
 
 @media (max-width: 500px) {
 
-    .menu-btn {
-        right: 30px;
-    }
+
 
     button {
         font-size: 36px;
