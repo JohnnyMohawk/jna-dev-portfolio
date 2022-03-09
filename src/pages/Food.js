@@ -1,4 +1,4 @@
-import FoodSlider from "../components/FoodSlider"
+import ImageSlider from "../components/ImageSlider"
 import { FoodData } from '../components/FoodData'
 
 const Food = () => {
@@ -8,7 +8,7 @@ const Food = () => {
                 <h1 className="page-title">My Plates</h1>
                 <div className="art-wrapper">
                     <div className="art-container">
-                        <FoodSlider slides={FoodData}/>
+                        <ImageSlider slides={FoodData}/>
                     </div>
                 </div>
             </section>

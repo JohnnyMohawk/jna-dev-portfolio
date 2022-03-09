@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { VideoData } from './VideoData'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import ImgInfoPopover from './ImgInfoModal'
+import './slider.css'
 
 const VideoSlider = ({ slides }) => {
     const [currentImage, setCurrentImage] = useState(0)

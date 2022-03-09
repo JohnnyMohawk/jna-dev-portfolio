@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { SliderData } from './SliderData'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import ImgInfoPopover from './ImgInfoModal'
+import './slider.css'
 
 const ImageSlider = ({ slides }) => {
     const [currentImage, setCurrentImage] = useState(0)
@@ -28,7 +28,7 @@ const ImageSlider = ({ slides }) => {
             <div>
                 <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
             </div>
-            {SliderData.map((slide, index) => {
+            {slides.map((slide, index) => {
                 return (
                     <div className={index === currentImage ? "slide active" : "slide"} key={index}>
                         {index === currentImage && (<img src={slide.image} alt={index} className="art-image" />)}

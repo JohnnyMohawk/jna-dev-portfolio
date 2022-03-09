@@ -1,0 +1,235 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    margin-top: -100px;
+  
+  }
+  
+  .sliderVid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    margin-top: -100px;
+  }
+  
+  .art-image {
+    max-height: 70vh;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  
+  .art-container {
+    margin: 50px 45px 0 45px;
+  }
+  
+  .art-wrapper {
+    margin-left: -45px;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    right: 32px;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    left: 32px;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .right-arrow:hover,
+  .left-arrow:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration:  1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+  
+  .imgButtWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes transitionIn {
+    0% {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+  
+    30% {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+  }
+  
+  .imgInfoButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none;
+    font-size: 20px !important;
+    line-height: 18px !important;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    margin: 10px !important;
+    border: 2px solid transparent !important;
+    animation: transitionIn 1s;
+  }
+
+  .imgInfoButton:hover {
+    font-size: 20px;
+    background-color: black !important;
+    color: red !important;
+    border: 2px solid red !important;
+  }
+  
+  @media (max-width: 1150px) {
+    .art-image {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    .art-image {
+      max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+  }
+  
+  @media (max-width: 500px) {
+  
+    .art-wrapper {
+      margin-left: 0;
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 64vh;
+    }
+  
+    .art-container {
+      position: absolute;
+      top: 40%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      margin: 30px 0 0 0;
+      padding: 0;
+    }
+  
+    .right-arrow {
+      position: absolute;
+      bottom: 5%;
+      right: 10px;
+    }
+  
+    .left-arrow {
+      position: absolute;
+      bottom: 5%;
+      left: 10px;
+    }
+  
+    .imgInfoButton {
+      position: absolute;
+    }
+  
+    .art-image {
+      margin: 0;
+      padding: 0;
+      max-height: 56vh;
+      max-width: 92vw;
+      border-radius: 0px;
+    }
+  
+    .art-wrapper {
+      position: fixed;
+      left: 50%;
+      bottom: 0;
+      top: 20%;
+    }
+  
+    .right-arrow:hover,
+    .left-arrow:hover {
+      color: rgba(255, 255, 255, 0.3);
+    }
+  
+    .right-arrow:active,
+    .left-arrow:active {
+      color: rgb(255, 255, 255);
+      transform: translateY(2px);
+      transition: all 0.9s ease-in-out;
+    }
+
+    .slider {
+      margin-top: -30px;
+      height: 80vh;
+    }
+  
+    .imgInfoButton:hover {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white !important;
+      background-color: transparent !important;
+      box-shadow: none !important;
+      text-shadow: none;
+      font-size: 20px !important;
+      line-height: 18px !important;
+      font-family: 'Open Sans Condensed', sans-serif !important;
+      margin: 10px !important;
+      border: 2px solid transparent !important;
+      animation: transitionIn 1s;
+    }
+
+    .imgInfoButton:active {
+      font-size: 20px;
+      background-color: black !important;
+      color: red !important;
+      border: 2px solid red !important;
+    }
+
+    .imgButtWrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
