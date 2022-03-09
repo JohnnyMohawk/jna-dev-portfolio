@@ -5,6 +5,7 @@ import ExperienceModal from '../components/ExperienceModal';
 import OtherModal from '../components/OtherModal';
 import SkillsModal from '../components/SkillsModal';
 import GooeyBG from "../components/Gooey"
+import './about.css'
 
 const About = () => {
     return (

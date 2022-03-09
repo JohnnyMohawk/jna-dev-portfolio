@@ -1,0 +1,242 @@
+button {
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 96px;
+background: none;
+color: inherit;
+border: none;
+padding: 0;
+cursor: pointer;
+outline: inherit;
+text-shadow:
+-2px -2px 3px black,
+2px 2px 3px black,
+-2px -2px 3px black,
+2px 2px 3px black;
+transition: all 0.3s ease-out;
+}
+
+button:hover {
+color: red;
+transition: all 0.3s ease-out;
+font-size: 100px;
+}
+
+.home-wrapper {
+    margin-top: 250px;
+    border: none;
+    background: none;
+}
+
+.home-title {
+    text-shadow:
+    -2px -2px 2px black,
+    2px 2px 2px black,
+    -2px -2px 2px black,
+    2px 2px 2px black;
+}
+
+.home-logo {
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+#edit-img {
+    animation: heart-pulse 0.9s infinite ease-out;
+}
+
+@keyframes heart-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: auto;
+}
+
+a {
+    font-family: inherit;
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    width: 50px;
+}
+
+.icons1 {
+    width: 48px;
+}
+
+.icons1:hover,
+.icons:hover,
+.home-title:hover {
+    -webkit-filter: invert(100%) !important;
+}
+
+.icons1:active,
+.icons:active {
+    transform: translateY(4px)
+}
+
+button:active {
+    transform: translateY(4px)
+}
+
+.homepage .overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.homepage .overlay p {
+    font-size: 36px;
+} 
+  
+  .homepage .overlay ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .homepage .overlay ul li {
+    margin: 0 20px;
+  }
+  
+  .homepage .overlay ul li a {
+    font-size: 46px;
+  }
+
+@media (max-width: 1150px) {
+    button {
+        font-size: 84px;
+    }
+
+    button:hover {
+        color: red;
+        transition: all 0.3s ease-out;
+        font-size: 86px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    button {
+        font-size: 64px;
+    }
+
+    button:hover {
+        color: red;
+        transition: all 0.3s ease-out;
+        font-size: 66px;
+    }
+
+    #home-logo {
+        max-width: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        font-size: 44px;
+    }
+    button:hover {
+        color: red;
+        transition: all 0.3s ease-out;
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .menu-btn {
+        right: 30px;
+    }
+
+    button {
+        font-size: 36px;
+    }
+
+    button:hover {
+        font-size: 36px;
+        color: white;
+    }
+
+    button:active {
+        color: red;
+        transition: all 0.3s ease-out;
+        font-size: 38px;
+    }
+
+    .home-logo {
+        margin-bottom: 10px;
+    }
+
+    .home-wrapper {
+        margin-top: 100px;
+    }
+
+    #edit-img {
+        animation: none;
+    }
+
+    .homepage .overlay ul {
+        margin-top: 4px;
+    }
+
+    .home-logo {
+        margin-top: 4px;
+        width: 46%;
+    }
+
+    .homepage .overlay h1 {
+        font-size: 30px;
+        text-shadow:
+        -2px -2px 3px black,
+        2px 2px 3px black,
+        -2px -2px 3px black,
+        2px 2px 3px black;
+    }
+
+    .icons:hover,
+    .homepage .overlay p:hover {
+        -webkit-filter: invert(0%) !important;
+    }
+
+    #edit-img:hover {
+        -webkit-filter: invert(0%) !important;
+        animation: none;
+    }
+
+    #edit-img:active {
+        -webkit-filter: invert(100%) !important;
+    }
+
+}
