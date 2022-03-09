@@ -33,10 +33,33 @@
     margin-top: 40px;
     z-index: 9999999;
   }
-  
+
   @media (max-width: 500px) {
     .menu-btn {
       right: 30px;
       margin-top: 40px;
     }
   }
+
+  @media (max-width: 993px) and (min-width: 500px) {
+    .menu-btn {
+      /* right: 30px; */
+      margin-top: 40px;
+    }
+  }
+
+  @media (max-width: 1150px) and (min-width: 993px) {
+    .menu-btn {
+      /* right: 30px; */
+      margin-top: 26px;
+    }
+  }
+  
+  @media (max-width: 1500px) and (min-width: 1151px) {
+    .menu-btn {
+      /* right: 30px; */
+      margin-top: 15px;
+    }
+  }
+
+
