@@ -1,3 +1,16 @@
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.homepage {
+    animation: transitionIn 1s;
+}
+
 button {
 font-family: 'Josefin Sans', sans-serif;
 font-weight: 700;
