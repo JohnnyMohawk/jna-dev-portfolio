@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import RouteChangeTracker from './components/RouteChangeTracker.js'
 
 // COMPONENTS
 import Homepage from "./components/Homepage";
@@ -13,9 +14,16 @@ import About from "./pages/About";
 import Food from "./pages/Food";
 import Videos from "./pages/Videos";
 
+import ReactGA from 'react-ga'
+ 
+const GA_TRACKING_CODE = process.env.REACT_APP_GA_TRACKING_CODE
+ 
+ReactGA.initialize(GA_TRACKING_CODE)
+
 const App = () => {
   return (
     <BrowserRouter>
+      <RouteChangeTracker />
       <Menu />
       <Switch>
         <Route path="/" exact>
@@ -47,4 +55,5 @@ const App = () => {
   );
 }
 
+// export default withRouter(App);
 export default App;

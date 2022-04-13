@@ -1,13 +1,15 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import {BiMenu} from "react-icons/bi"
-import { Link } from "react-router-dom"
+import { Link, withRouter } from "react-router-dom"
 import { navbar } from "../data/navbar"
 import './menu.css'
 
 const Menu = () => {
+    
     const [isOpen, setIsOpen] = useState(false)
     // eslint-disable-next-line
     const [links, setLinks] = useState(navbar)
+
     return (
         <>
             <div className="menu-btn">
@@ -36,4 +38,4 @@ const Menu = () => {
     )
 }
 
-export default Menu
+export default withRouter(Menu)
