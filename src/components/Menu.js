@@ -28,6 +28,7 @@ const Menu = () => {
                                 </li>
                             )
                         })}
+                        <li><a href="https://blog.johnnelsonalden.com/" target="_blank" rel="noopenner noreferrer">Blog</a></li>
                     </ul>
                 </nav>
             </header>
