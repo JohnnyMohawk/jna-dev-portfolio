@@ -17,7 +17,9 @@ const Contacts = () => {
                     <li><a href="https://www.reddit.com/user/Johnny_Mohawk" target="_blank" rel="noopennernoreferrer"><FaRedditAlien /> Let's Discuss on Reddit</a></li>
                     <li><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><FaLinkedin /> Talk Shop on Linkedin</a></li>
                 </ul>
-                <ContactForm />
+                <div className="contactWrap">
+                    <ContactForm />
+                </div>
             </section>
         </>
     )

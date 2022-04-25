@@ -15,18 +15,18 @@ export default function ContactForm() {
         <input 
             type='text' 
             name='name' 
-            placeholder='Enter your name' />
+            placeholder='Name' />
 
         <input 
             type='email' 
             name='email' 
-            placeholder='Enter your email' />
+            placeholder='Email' />
 
         <textarea 
             name='message' 
             placeholder='Messaage'></textarea>
 
-        <button type='submit'>Submit</button>
+        <button className='formButton' type='submit'>Submit</button>
     </form>
   )
 }
