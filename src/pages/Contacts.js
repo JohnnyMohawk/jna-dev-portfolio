@@ -1,5 +1,6 @@
 import { FaTwitter, FaEnvelope, FaPalette, FaLinkedin, FaRedditAlien, FaPhoneAlt } from "react-icons/fa"
 import GooeyBG from "../components/Gooey"
+import ContactForm from "../components/ContactForm"
 import './contacts.css'
 
 const Contacts = () => {
@@ -16,6 +17,7 @@ const Contacts = () => {
                     <li><a href="https://www.reddit.com/user/Johnny_Mohawk" target="_blank" rel="noopennernoreferrer"><FaRedditAlien /> Let's Discuss on Reddit</a></li>
                     <li><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><FaLinkedin /> Talk Shop on Linkedin</a></li>
                 </ul>
+                <ContactForm />
             </section>
         </>
     )
