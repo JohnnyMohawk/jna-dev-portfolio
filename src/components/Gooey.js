@@ -17,7 +17,7 @@ export default function GooeyBG() {
           role="img"
           aria-label="Example of a gooey effect"
           className="w-64 h-64"
-          style={{ "height": "100vh", "width": "100vw" }}
+          style={{ "min-height": "100vh", "min-width": "100vw" }}
         >
           <g style={{ animation: "rotate_back 9s linear infinite" }}>
             <circle
