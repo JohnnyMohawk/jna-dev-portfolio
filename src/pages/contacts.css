@@ -62,14 +62,14 @@ transform: translate(-50%, -50%);
   .contactWrap {
     position: absolute;
     left: 50%;
-    bottom: 18%;
+    bottom: 25%;
     transform: translate(-50%, -50%);
   }
   
     .contacts ul {
       position: absolute;
       left: 50%;
-      top: 27%;
+      top: 30%;
       transform: translate(-50%, -50%);
     }
 }
