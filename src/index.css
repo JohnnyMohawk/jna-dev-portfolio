@@ -9,7 +9,8 @@
 }
 
 .bgVid,
-.mobile-bg {
+.mobile-bg,
+.mobile-bg1 {
   object-fit: cover;
   width: 100%;
   height: 100%;

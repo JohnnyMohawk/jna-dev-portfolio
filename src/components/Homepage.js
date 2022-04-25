@@ -5,9 +5,9 @@ import './homepage.css'
 const Homepage = () => {
 
     const userPageResponse = () => {
-        if(window.innerWidth >= 960){
+        if(window.innerWidth >= 500){
             window.location.reload()
-        }else if(window.innerWidth <= 960){
+        }else if(window.innerWidth <= 500){
             window.location.reload()
         }
     }

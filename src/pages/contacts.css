@@ -1,3 +1,13 @@
+.contacts h1,
+.contacts ul,
+.contactWrap {
+  z-index: 2;
+}
+
+.mobile-bg1 {
+  z-index: 1;
+}
+
 .pageTitle {
   position: absolute;
   top: 0;
