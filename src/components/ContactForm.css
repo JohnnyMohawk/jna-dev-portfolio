@@ -22,16 +22,18 @@
     background-color: #fff;
     font-size: 18px;
     margin: 0;
-    border: 2px solid transparent;
+    border: 1px solid rgb(226, 226, 226);
     height: 50px;
     text-shadow: none;
+    border-radius: 2px;
+    border-style: inset;
   }
 
   .formButton:hover {
     font-size: 18px;
     background-color: #ff00ff83;
     color: #fff;
-    border: 2px solid red;
+    border: 1px solid red;
     transition: all 0.3s ease-in-out;
   }
 
