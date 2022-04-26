@@ -71,8 +71,8 @@ export const projects = [
         id: uuidv4(),
         title: "Moonwalker Cafe",
         desc: "This is a static React App I am building for friends who opened a cafe in my neighborhood. Because Moonwalker is a quick-service restaurant, the design of the app is mobile first. Finalized copy and more food photos coming soon!.",
-        github: "https://github.com/JohnnyMohawk/ttt-weekend",
-        demo: "https://tar-get-toe.netlify.app/",
+        github: "https://github.com/JohnnyMohawk/moonwalker",
+        demo: "https://moonwalker-cafe.netlify.app/",
         image: "./images/moonwalker-cafe.png"
     },
 ]
