@@ -13,6 +13,22 @@ export const projects = [
     },
     {
         id: uuidv4(),
+        title: "Johnny Mohawk Blog",
+        desc: "This blog is a place for me to share my longer-form writings about life, art, code, food, Chicago, and various other things that interest me. Built with React and Netlify CMS. ",
+        github: "https://github.com/JohnnyMohawk/jna-netlify-cms-blog",
+        demo: "https://blog.johnnelsonalden.com/",
+        image: "./images/jna-blog.png"
+    },
+    {
+        id: uuidv4(),
+        title: "Self-portrait in Code",
+        desc: "This piece is an exploration of front-end developer tools as visual art media. The text is advice from my late father on how to improve on a design: “Tear it all apart. What are you left with? Save the good stuff.” - My Dad",
+        github: "https://github.com/JohnnyMohawk/self-portrait",
+        demo: "https://iam.johnnelsonalden.com/",
+        image: "./images/coded-self-portrait.jpg"
+    },
+    {
+        id: uuidv4(),
         title: "UNleash",
         desc: "UNleash is a MERN stack application designed to help people locate dog parks in their area and enables users to connect with the communities that exist in these dog friendly public spaces.",
         github: "https://github.com/JohnnyMohawk/unleash",
@@ -50,5 +66,13 @@ export const projects = [
         github: "https://github.com/JohnnyMohawk/ttt-weekend",
         demo: "https://tar-get-toe.netlify.app/",
         image: "./images/project-5.png"
+    },
+    {
+        id: uuidv4(),
+        title: "Moonwalker Cafe",
+        desc: "This is a static React App I am building for friends who opened a cafe in my neighborhood. Because Moonwalker is a quick-service restaurant, the design of the app is mobile first. Finalized copy and more food photos coming soon!.",
+        github: "https://github.com/JohnnyMohawk/ttt-weekend",
+        demo: "https://tar-get-toe.netlify.app/",
+        image: "./images/moonwalker-cafe.png"
     },
 ]
