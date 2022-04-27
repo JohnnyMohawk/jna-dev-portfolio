@@ -1,8 +1,6 @@
 import { FaTwitter, FaEnvelope, FaPalette, FaLinkedin, FaRedditAlien, FaPhoneAlt } from "react-icons/fa"
 import GooeyBG from "../components/Gooey"
-import ContactForm from "../components/ContactForm"
 import './contacts.css'
-
 import ContactFormAjax from '../components/ContactFormAjax'
 
 const Contacts = () => {
@@ -31,7 +29,6 @@ const Contacts = () => {
                     <li><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><FaLinkedin /> Talk Shop on Linkedin</a></li>
                 </ul>
                 <div className="contactWrap">
-                    {/* <ContactForm /> */}
                     <ContactFormAjax name="Simple Form Ajax" />
                 </div>
             </section>
@@ -39,9 +36,7 @@ const Contacts = () => {
     ) : (
         <>
             <img className="mobile-bg1" src="./images/mobile-goo-img.png" />
-            <section className="contacts" id="contact-page">
-            {/* <GooeyBG className="gooeyBg" /> */}
-                
+            <section className="contacts" id="contact-page">                
                 <h1 className="pageTitle">Contact Me</h1>
                 <ul>
                     {/* <li><a href="tel:13129090134"><FaPhoneAlt /> 1  (312) 909 - 0134</a></li> */}
@@ -52,7 +47,6 @@ const Contacts = () => {
                     <li><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><FaLinkedin /> Talk Shop on Linkedin</a></li>
                 </ul>
                 <div className="contactWrap">
-                    {/* <ContactForm /> */}
                     <ContactFormAjax name="Simple Form Ajax" />
                 </div>
             </section>

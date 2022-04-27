@@ -2,7 +2,7 @@ import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
-import './InquiryForm.css'
+import './ContactFormAjax.css'
 
 const fetch = window.fetch
 
@@ -13,7 +13,7 @@ class Form extends React.Component {
     action: '',
     successMessage: 'Thanks for your inquiry, I will get back to you as soon as possible.',
     errorMessage:
-      'There is a problem, your message has not been sent, please try contacting us via email'
+      'There is a problem, your message has not been sent, please try contacting me via email. Thanks!'
   }
 
   state = {
