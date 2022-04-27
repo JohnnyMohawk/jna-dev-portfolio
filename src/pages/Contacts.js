@@ -1,5 +1,5 @@
 import { FaTwitter, FaEnvelope, FaPalette, FaLinkedin, FaRedditAlien, FaPhoneAlt } from "react-icons/fa"
-import GooeyBG from "../components/Gooey"
+// import GooeyBG from "../components/Gooey"
 import './contacts.css'
 import ContactFormAjax from '../components/ContactFormAjax'
 
@@ -18,7 +18,8 @@ const Contacts = () => {
     return window.innerWidth >= 500 ? (
         <>
             <section className="contacts" id="contact-page">
-            <GooeyBG className="gooeyBg" />
+            <video className='contact-bg' src="./images/pixels.mp4" autoPlay loop muted />
+            {/* <GooeyBG className="gooeyBg" /> */}
                 <h1 className="pageTitle">Contact Me</h1>
                 <ul>
                     {/* <li><a href="tel:13129090134"><FaPhoneAlt /> 1  (312) 909 - 0134</a></li> */}

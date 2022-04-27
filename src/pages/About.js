@@ -4,7 +4,7 @@ import EducationModal from '../components/EducationModal';
 import ExperienceModal from '../components/ExperienceModal';
 import OtherModal from '../components/OtherModal';
 import SkillsModal from '../components/SkillsModal';
-import GooeyBG from "../components/Gooey"
+// import GooeyBG from "../components/Gooey"
 import './about.css'
 
 const About = () => {
@@ -22,7 +22,8 @@ const About = () => {
     return window.innerWidth >= 500 ? (
         <>
             <div className="centering-div">
-            <GooeyBG className="gooeyBg" />
+            {/* <GooeyBG className="gooeyBg" /> */}
+            <video className='bgVid' src="./images/tech-bg.mp4" autoPlay loop muted />
             <section className="contacts1">
                 <h1>About Me</h1>
                 <Link to="/contact-me">
