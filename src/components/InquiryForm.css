@@ -93,6 +93,7 @@
     width: 100%;
     text-align: center;
     padding: 2rem;
+    color: #fff;
   }
 
   @media (max-width: 1250px) {
@@ -118,8 +119,15 @@
         font-size: 14px !important;
         padding: 0.75rem 0.75rem;
     }
+    .EnquiryForm--Textarea {
+        padding: 0.75rem 0 0 0.75rem;
+        font-size: 12px !important;
+        line-height: 12px !important;
+    }
     .EnquiryForm--SubmitButton {
         font-size: 14px !important;
         padding: 0.75rem 0.75rem;
+        color: #000;
+        border-radius: 0;
     }
   } 
