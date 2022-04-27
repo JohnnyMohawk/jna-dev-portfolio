@@ -3,6 +3,8 @@ import GooeyBG from "../components/Gooey"
 import ContactForm from "../components/ContactForm"
 import './contacts.css'
 
+import ContactFormAjax from '../components/ContactFormAjax'
+
 const Contacts = () => {
 
     const userPageResponse = () => {
@@ -29,7 +31,8 @@ const Contacts = () => {
                     <li><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><FaLinkedin /> Talk Shop on Linkedin</a></li>
                 </ul>
                 <div className="contactWrap">
-                    <ContactForm />
+                    {/* <ContactForm /> */}
+                    <ContactFormAjax name="Simple Form Ajax" />
                 </div>
             </section>
         </>
@@ -49,7 +52,8 @@ const Contacts = () => {
                     <li><a href="https://www.linkedin.com/in/john-nelson-alden/" target="_blank" rel="noopennernoreferrer"><FaLinkedin /> Talk Shop on Linkedin</a></li>
                 </ul>
                 <div className="contactWrap">
-                    <ContactForm />
+                    {/* <ContactForm /> */}
+                    <ContactFormAjax name="Simple Form Ajax" />
                 </div>
             </section>
         </>

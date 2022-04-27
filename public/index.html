@@ -29,9 +29,27 @@
     <title>John Nelson-Alden</title>
   </head>
   <body>
-    <form name='contactForm' netlify hidden>
+    <!-- <form name='contactForm' netlify hidden>
       <input type='text' name='name' />
       <input type='email' name='email' />
+      <textarea name='message'></textarea>
+    </form> -->
+    <form name='Simple Form Ajax' netlify hidden>
+      <input type='text' name='name' />
+      <input type='email' name='email' />
+      <select
+            name='type'
+            defaultValue='Type of Inquiry'
+            required
+          >
+            <option disabled hidden>
+              Type of Inquiry
+            </option>
+            <option>Need to know more</option>
+            <option>Found a bug</option>
+            <option>Want to say hello</option>
+          </select>
+        </label>
       <textarea name='message'></textarea>
     </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
