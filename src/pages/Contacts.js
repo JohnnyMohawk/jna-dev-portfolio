@@ -36,8 +36,8 @@ const Contacts = () => {
         </>
     ) : (
         <>
-            <img className="mobile-bg1" src="./images/contact-mobile-bg.png" />
             <section className="contacts" id="contact-page">                
+            <img className="mobile-bg1" src="./images/contact-mobile-bg.png" />
                 <h1 className="pageTitle">Contact Me</h1>
                 <ul>
                     {/* <li><a href="tel:13129090134"><FaPhoneAlt /> 1  (312) 909 - 0134</a></li> */}
