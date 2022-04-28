@@ -23,12 +23,12 @@ export const VideoData = [
         medium: "Digital animation, Procreate. 2022",
         description: "Part of an upcoming series on superstitions and their origins. Many modern superstitions date back to the medieval times and the fear of witchcraft. During this time, single women who kept cats as pets were often persecuted as witches.",
     },
-    // {
-    //     image: "./images/Chestnut & Grace.mp4",
-    //     title: "Chestnut & Grace News Spot",
-    //     medium: "Good Day Chicago, FOX 32. 2017",
-    //     description: "A nice spot on FOX 32 Good Day Chicago for National Dog Day promoting my company Chestnut & Grace and our partnership with the Kinzie Hotel.",
-    // },
+    {
+        image: "./images/Chestnut & Grace.mp4",
+        title: "Chestnut & Grace News Spot",
+        medium: "Good Day Chicago, FOX 32. 2017",
+        description: "A nice spot on FOX 32 Good Day Chicago for National Dog Day promoting my company Chestnut & Grace and our partnership with the Kinzie Hotel.",
+    },
     {
         image: "./images/Nick Newman Vid.mp4",
         title: "Early Scene as Young Nick",
