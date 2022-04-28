@@ -39,6 +39,9 @@
       right: 30px;
       margin-top: 40px;
     }
+    .header.open {
+      width: 50vw;
+    }
   }
 
   @media (max-width: 993px) and (min-width: 500px) {
