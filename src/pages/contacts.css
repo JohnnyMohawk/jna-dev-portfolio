@@ -1,3 +1,16 @@
+@keyframes transitionIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.contacts {
+  animation: transitionIn 1s;
+}
+
 .contacts h1,
 .contacts ul,
 .contactWrap {
