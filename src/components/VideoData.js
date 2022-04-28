@@ -29,10 +29,10 @@ export const VideoData = [
     //     medium: "Good Day Chicago, FOX 32. 2017",
     //     description: "A nice spot on FOX 32 Good Day Chicago for National Dog Day promoting my company Chestnut & Grace and our partnership with the Kinzie Hotel.",
     // },
-    // {
-    //     image: "./images/Nick Newman Vid.mp4",
-    //     title: "Early Scene as Young Nick",
-    //     medium: "The Young and the Restless, CBS. 1991",
-    //     description: "Definitely not my best work, lol... of course this is the scene that gets preserved for eternity on the internet! Huge thanks to the wonderful Melody Thomas Scott for literally holding my hand through this scene, and to Peter Bergman and Eric Braeden for being the best fake dads a kid could ask for!",
-    // },
+    {
+        image: "./images/Nick Newman Vid.mp4",
+        title: "Early Scene as Young Nick",
+        medium: "The Young and the Restless, CBS. 1991",
+        description: "Definitely not my best work, lol... of course this is the scene that gets preserved for eternity on the internet! Huge thanks to the wonderful Melody Thomas Scott for literally holding my hand through this scene, and to Peter Bergman and Eric Braeden for being the best fake dads a kid could ask for!",
+    },
 ]
