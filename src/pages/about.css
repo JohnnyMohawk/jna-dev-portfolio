@@ -7,6 +7,11 @@
   }
 }
 
+.logoLink {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
 .aboutSpace {
     font-size: 2px;
 }

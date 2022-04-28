@@ -26,9 +26,11 @@ const About = () => {
             <video className='bgVid' src="./images/tech-bg.mp4" autoPlay loop muted />
             <section className="contacts1">
                 <h1>About Me</h1>
+                <div className='logoLink'>
                 <Link to="/contact-me">
                     <img className="home-logo" id="about-img" src="./images/project-6.png" />
                 </Link>
+                </div>
                 <h3 id="about-header"><span className='aboutln1'> <span className='aboutSpace'>&nbsp;</span> writer && readerOfCode || maker && doerOfThings</span><br></br> <span className='aboutSpace'>&nbsp;</span> cooker && eaterOfFood || rescuer && loverOfDogs</h3>
                 <div className='centerModalDiv'>
                     <div className='modalDiv'>
