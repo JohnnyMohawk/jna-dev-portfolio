@@ -30,19 +30,19 @@ export const SliderData = [
         description: "In 2021, Chicago experienced one of its most violent and crime riddled years in recorded history. In response to this failure of leadership, I created this portrait of Chicago Mayor Lori Lightfoot.",
     },
     {
-        image: "./images/War. Horses of the Apocalypse 1 - 4.png",
+        image: "./images/War. Horses of the Apocalypse 1 - 4.jpg",
         title: "War",
         medium: "Digital drawing, Procreate. 2022",
         description: "The fiery horse of war has rides into town.",
     },
     {
-        image: "./images/Death. Horses of the Apocalypse- 4 - 4.png",
+        image: "./images/Death. Horses of the Apocalypse- 4 - 4.jpg",
         title: "Death",
         medium: "Digital drawing, Procreate. 2022",
         description: "Death. The last chapter of any true story. The red horse named War is all that remains. He lies dead in a dead world, a world he killed.",
     },
     {
-        image: "./images/Down in the Valley Below.jpeg",
+        image: "./images/Down in the Valley Below.jpg",
         title: "Down in the Valley",
         medium: 'Pencil, marker, gold paint, collage. 9" X 15", 2021',
         description: "I approach dark and heavy subjects with bright colors and a light heart.",
@@ -66,7 +66,7 @@ export const SliderData = [
         description: "Live in light.",
     },
     {
-        image: "./images/triptych.png",
+        image: "./images/triptych.jpg",
         title: "A Picture of Good Health",
         medium: 'Pencil, ink, oil stick, cedar paper, gold leaf, collage. 3: 12" X 36", 2012',
         description: "A visual exploration of mindfulness.",
@@ -109,7 +109,7 @@ export const SliderData = [
     
     },
     {
-        image: "./images/wedding.PNG",
+        image: "./images/wedding.jpg",
         title: "Fiesta de Amor",
         medium: "Digital painting, Freshpaint, 2014",
         description: "My first digital painting. Done for our wedding thank you cards.",

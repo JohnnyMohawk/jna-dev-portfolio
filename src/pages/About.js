@@ -56,7 +56,7 @@ const About = () => {
         <>
             <div className="centering-div">
             {/* <GooeyBG className="gooeyBg" /> */}
-            <img className="mobile-bg" src="./images/about-mobile-bg.png" />
+            <img className="mobile-bg" src="./images/about-mobile-bg.jpg" />
             <section className="contacts1">
                 <h1>About Me</h1>
                 <Link to="/contact-me">
