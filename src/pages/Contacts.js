@@ -36,7 +36,7 @@ const Contacts = () => {
         </>
     ) : (
         <>
-            <img className="mobile-bg1" src="./images/mobile-goo-img.png" />
+            <img className="mobile-bg1" src="./images/contact-mobile-bg.png" />
             <section className="contacts" id="contact-page">                
                 <h1 className="pageTitle">Contact Me</h1>
                 <ul>
