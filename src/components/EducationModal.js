@@ -37,7 +37,7 @@ export default function EducationModal() {
           </Typography>
           <div id='popupBreak'></div>
           <Typography id="modal-subtitle" variant="h6" component="h2">
-            Generally Assembly
+            General Assembly
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
             
@@ -53,7 +53,7 @@ export default function EducationModal() {
             <p className='eduDeets'>Bachelor of Professional Studies,</p>
             <p className='eduDeets'>Individualized Major:</p>
             <p className='eduDeets'>Economics and Hospitality Management</p>
-            <p className='eduDeets'>Graduated with honors. Benjamin Franklin Honors Scociety</p>
+            <p className='eduDeets'>Graduated with honors. Benjamin Franklin Honors Society</p>
             <p className='eduDeets'>Chicago, IL, 2006 - 2009</p>
           </Typography>
           <div id='popupBreak'></div>

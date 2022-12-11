@@ -40,10 +40,35 @@ export default function ExperienceModal() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-        <Typography id="modal-modal-title" variant="h6" component="h2">
+        <Typography id="modal-modal-title" variant="h6" component="h2" paddingBottom={"3px"}>
           Experience:
         </Typography>
         <div>
+        <Accordion expanded={expanded === 'panel0'} onChange={handleChange('panel0')}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1bh-content"
+            id="panel1bh-header"
+          >
+            <Typography sx={{ width: '53%', flexShrink: 0, fontSize: '16px', fontFamily: 'Josefin Sans' }} className="jobTitle">
+              Web3 Developer
+            </Typography>
+            <Typography sx={{ color: 'text.secondary', fontFamily: 'Open Sans Condensed', fontSize: '20px' }}>Anheuser-Busch</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography sx={{ fontFamily: 'Open Sans Condensed', fontSize: '20px', lineHeight: '22px', marginTop: '-20px' }}>
+              <p>Aug 2022 - Present, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>New York, NY</em></p>
+              <ul className='jobDetails'>
+                <li>Lead creation, testing, deployment & maintenance of websites specific to NFT collection launches</li>
+                <li>Manage multiple projects at once, collaborating with agency partners for on-site upgrades</li>
+                <li>Analyze & provide strategic recommendations to improve UX for increasing customer retention</li>
+                <li>Perform QA & testing for sites & product releases</li>
+                <li>Developed a token-gating platform for brand ecommerce sites, in-person and online events</li>
+                <li>Work with marketing and brand strategists to create innovative utility offerings for collections to strengthen the community and raise floor prices</li>
+              </ul>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
         <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -57,7 +82,7 @@ export default function ExperienceModal() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography sx={{ fontFamily: 'Open Sans Condensed', fontSize: '20px', lineHeight: '22px', marginTop: '-20px' }}>
-              <p>Nov 2021 - Present, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>New York, NY</em></p>
+              <p>Nov 2021 - Aug 22, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>New York, NY</em></p>
               <ul className='jobDetails'>
                 <li>Analyze user needs and develop software solutions</li>
                 <li>Work with project team to meet specifications</li>
@@ -157,7 +182,7 @@ export default function ExperienceModal() {
               <p>Dec 2013 - Feb 2014, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>Chicago, IL</em></p>
               <ul className='jobDetails'>
                 <li>Worked under Chef Grant Achatz in his Three Michelin Star kitchen.</li>
-                <li>Learned and experimented with the concepts of Molecular Gastromy</li>
+                <li>Learned and experimented with the concepts of Molecular Gastronomy</li>
                 <li>Made floating food on a nightly basis!</li>
               </ul>
             </Typography>
@@ -185,7 +210,7 @@ export default function ExperienceModal() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        {/* <Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel4bh-content"
@@ -202,11 +227,11 @@ export default function ExperienceModal() {
               <ul className='jobDetails'>
                 <li>Contracted to help design and build a Quick Service Restaurant concept</li>
                 <li>Designed a high profit, fast turn around menu to maximize business profitability</li>
-                <li>Developed and trained owners and core staff in standard operationd procdures</li>
+                <li>Developed and trained owners and core staff in standard operating procedures</li>
               </ul>
             </Typography>
           </AccordionDetails>
-        </Accordion>
+        </Accordion> */}
         <Accordion expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}

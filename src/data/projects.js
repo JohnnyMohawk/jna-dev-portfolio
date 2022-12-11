@@ -53,7 +53,7 @@ export const projects = [
     },
     {
         id: uuidv4(),
-        title: "Project Four",
+        title: "Jumble Hunt",
         desc: "Jumble Hunt is a shooting gallery style word jumble game built with vanilla JavaScript. The letters of a word will be rearranged in a random order, the player must “shoot” the letters in the correct order to unscramble the word.",
         github: "https://github.com/JohnnyMohawk/jumble-hunt-game",
         demo: "https://jumble-hunt.netlify.app/",
