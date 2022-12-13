@@ -47,11 +47,12 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <p className="bio">I am a full stack software developer with a passion for problem solving, organization, efficiency, and creativity. My experience in 
-                    decentralized technology and non-fungible tokens has equipped me with the skills and knowledge to create efficient solutions to complex problems in 
-                    this field. Prior to my work in technology, I spent my early years as a professional actor on screen and stage, and also studied visual art. My creative 
-                    energy later shifted towards the culinary arts, and I have spent over two decades as a professional chef, working in some of the nation’s finest restaurants. 
-                    This unique background has given me the ability to think on my feet and find solutions to complex challenges in a variety of industries.
+                <p className="bio">
+                    I am a full-stack software developer with a passion for problem solving, organization, 
+                    efficiency, and creativity. My background as a professional actor, visual artist, and chef has given me a 
+                    unique set of skills that allow me to approach complex challenges with a creative and efficient mindset. 
+                    I am currently working with Web3 and blockchain technologies, using my expertise to create real-world 
+                    solutions that are both functional and elegant.
                 </p>
             </section>
             </div>
@@ -82,10 +83,13 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <p className="bio">I am a full-stack software developer with a passion for problem solving, organization, efficiency, 
-                and creativity. Having spent my early years working as a professional actor on screen and stage, and studying visual art, my creative energy turned 
-                towards the culinary arts and I have logged two decades as a professional chef, working in some of the nation’s finest 
-                restaurants. My unique experience has equipped me with tools to create efficient, real-world solutions to complex problems on-the-fly.</p>
+                <p className="bio">
+                    I am a full-stack software developer with a passion for problem solving, organization, 
+                    efficiency, and creativity. My background as a professional actor, visual artist, and chef has given me a 
+                    unique set of skills that allow me to approach complex challenges with a creative and efficient mindset. 
+                    I am currently working with Web3 and blockchain technologies, using my expertise to create real-world 
+                    solutions that are both functional and elegant.
+                </p>
             </section>
             </div>
         </>

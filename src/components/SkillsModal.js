@@ -56,8 +56,10 @@ export default function SkillsModal() {
           <Typography id="modal-modal-description" sx={{ mt: 1 }}>
             <ul className='modalUl'>
               <li>React</li>
+              <li>React Native</li>
               <li>Node.js</li>
               <li>Next.js</li>
+              <li>Hugo</li>
               <li>Express</li>
               <li>AWS Amplify</li>
               <li>Mongoose</li>
@@ -75,7 +77,7 @@ export default function SkillsModal() {
             <ul className='modalUl'>
               <li>PostgreSQL</li>
               <li>MySQL</li>
-              <li>SQLite</li>
+              <li>GraphQL</li>
               <li>MongoDB</li>
               <li>DynamoDB</li>
               <li>AWS S3</li>
@@ -103,6 +105,22 @@ export default function SkillsModal() {
               <li>WordPress</li>
               <li>MailChimp</li>
               <li>Shopify</li>
+            </ul>
+          </Typography>
+          <div id='popupBreak'></div>
+          <Typography id="modal-subtitle" variant="h6" component="h2">
+            Blockchain
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+            <ul className='modalUl'>
+              <li>Solidity</li>
+              <li>OpenZeppelin</li>
+              <li>Hardhat</li>
+              <li>Ethers.js</li>
+              <li>Web3.js</li>
+              <li>ERC-20</li>
+              <li>ERC-721</li>
+              <li>ERC-1155</li>
             </ul>
           </Typography>
           <div id='popupBreak'></div>
