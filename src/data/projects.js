@@ -6,7 +6,7 @@ export const projects = [
     {
         id: uuidv4(),
         title: "Shy Jack",
-        desc: "Shy Jack is a MERN stack application that allows users to map and graph Chicago carjacking data from 2001 to Present based on their specific search parameters. Stay safe Chicago!",
+        desc: "Shy Jack is a MERN stack application that allows users to map and graph all major crimes and all crimes committed with a firearm in Chicago from 2001 to Present based on their specific search parameters. Stay safe Chicago!",
         github: "https://github.com/JohnnyMohawk/chi-jack-app",
         demo: "https://www.shyjack.com/",
         image: "./images/shy-jack-project.png"
