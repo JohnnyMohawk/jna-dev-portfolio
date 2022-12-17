@@ -25,7 +25,6 @@ const Menu = () => {
         try {
             const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
             console.log("Found an account! Address:", accounts[0]);
-            // alert('You do not have any Johnny Mohawk Key tokens required to access this section. Click the mint link to create your key!');
             window.open('https://johnnymohawknft.netlify.app/','_blank');
         } catch (error) {
             console.log(error)
@@ -42,7 +41,7 @@ const Menu = () => {
             console.log("Found an account! Address:", accounts[0])
             let balance = Number(await contract.methods.balanceOf(accounts[0]).call());
             console.log("YOOOOOO", balance);
-            if (balance === 0) {
+            if (balance === 0 || balance < 0) {
                 alert('You do not have any Johnny Mohawk Key tokens required to access this section. Click the mint link to create your key!');
             } else if (balance > 0) {
                 window.open('https://www.npmjs.com/package/web3','_blank');
