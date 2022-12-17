@@ -44,7 +44,7 @@ const Menu = () => {
             if (balance === 0 || balance < 0) {
                 alert('You do not have any Johnny Mohawk Key tokens required to access this section. Click the mint link to create your key!');
             } else if (balance > 0) {
-                window.open('https://www.npmjs.com/package/web3','_blank');
+                // window.open('https://www.npmjs.com/package/web3','_blank');
             }
             // window.open('https://johnnymohawknft.netlify.app/','_blank');
         } catch (error) {

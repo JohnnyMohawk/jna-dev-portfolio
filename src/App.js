@@ -12,6 +12,7 @@ import Art from "./pages/Art";
 import About from "./pages/About";
 import Food from "./pages/Food";
 import Videos from "./pages/Videos";
+import Tokens from "./pages/Tokens";
 
 const App = () => {
   return (
@@ -38,6 +39,9 @@ const App = () => {
         </Route>
         <Route path="/contact-me">
           <Contacts />
+        </Route>
+        <Route path="/token-gated">
+          <Tokens />
         </Route>
         <Route path="*">
           <Error />
