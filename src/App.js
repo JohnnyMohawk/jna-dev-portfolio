@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // COMPONENTS
 import Homepage from "./components/Homepage";
@@ -18,35 +18,17 @@ const App = () => {
   return (
     <BrowserRouter>
       <Menu />
-      <Switch>
-        <Route path="/" exact>
-          <Homepage />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/my-art">
-          <Art />
-        </Route>
-        <Route path="/my-plates">
-          <Food />
-        </Route>
-        <Route path="/videos">
-          <Videos />
-        </Route>
-        <Route path="/about-me">
-          <About />
-        </Route>
-        <Route path="/contact-me">
-          <Contacts />
-        </Route>
-        <Route path="/token-gated">
-          <Tokens />
-        </Route>
-        <Route path="*">
-          <Error />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/my-art" element={<Art />} />
+        <Route path="/my-plates" element={<Food />} />
+        <Route path="/videos" element={<Videos />} />
+        <Route path="/about-me" element={<About />} />
+        <Route path="/contact-me" element={<Contacts />} />
+        <Route path="/token-gated" element={<Tokens />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </BrowserRouter>
   );
 }

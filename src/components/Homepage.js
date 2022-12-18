@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { SayButton } from 'react-say'
+import { SayButton } from 'react-say';
 import './homepage.css'
 
 const Homepage = () => {

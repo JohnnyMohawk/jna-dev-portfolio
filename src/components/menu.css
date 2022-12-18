@@ -35,8 +35,8 @@
   #w3line {
     text-align: center;
     width: 200px;
-    border-bottom: black 2px solid;
-    border-top: black 2px solid;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
     padding-top: 4px;
     font-size: 22px;
     color: white;
@@ -47,6 +47,10 @@
     right: 80px;
     margin-top: 40px;
     z-index: 9999999;
+  }
+
+  #nav-menu {
+    margin-top: 30px;
   }
 
   @media (max-width: 500px) {

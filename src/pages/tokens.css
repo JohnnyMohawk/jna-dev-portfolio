@@ -1,0 +1,42 @@
+#tokenWrap {
+    position: relative;
+}
+
+#pausePlay {
+    font-size: 30px !important;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
+#hitMeUp {
+    font-size: 30px !important;
+    position: absolute;
+    bottom: 2%;
+    left: 6%;
+}
+
+#mintButton {
+    font-size: 30px !important;
+    position: absolute;
+    top: 50;
+    left: 50;
+    outline: white 1px solid;
+    border-radius: 4px;
+    padding: 13px 12px 8px 12px;
+}
+
+#mintButton:hover {
+    background-color: white;
+    /* color: black; */
+    outline: red 3px solid;
+}
+
+#noTokens {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 12.5vw;
+    width: 75vw;
+    font-size: 3vmax;
+}

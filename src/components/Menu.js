@@ -1,6 +1,6 @@
 import { useState } from "react"
 import {BiMenu} from "react-icons/bi"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { navbar } from "../data/navbar"
 import './menu.css'
 import { ABI } from "../data/abi.js"
@@ -16,6 +16,7 @@ const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
     // eslint-disable-next-line
     const [links, setLinks] = useState(navbar);
+    const navigate = useNavigate();
 
     const checkWallet = async () => {
         const { ethereum } = window;
@@ -44,9 +45,8 @@ const Menu = () => {
             if (balance === 0 || balance < 0) {
                 alert('You do not have any Johnny Mohawk Key tokens required to access this section. Click the mint link to create your key!');
             } else if (balance > 0) {
-                window.open('https://www.npmjs.com/package/web3','_blank');
+                navigate('/token-gated');
             }
-            // window.open('https://johnnymohawknft.netlify.app/','_blank');
         } catch (error) {
             console.log(error)
         }
@@ -63,7 +63,7 @@ const Menu = () => {
 
                 <header className={`${isOpen ? "header open" : 'header'}`}>
                 <nav>
-                    <ul>
+                    <ul id="nav-menu">
                         {links.map((link) => {
                             const {id, title, url} = link
                             return (
