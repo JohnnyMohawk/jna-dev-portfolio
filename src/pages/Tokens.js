@@ -1,4 +1,4 @@
-import {FaPlay, FaPause} from "react-icons/fa"
+import {FaVolumeUp, FaVolumeMute} from "react-icons/fa"
 import {useState, useEffect} from "react"
 import { useNavigate } from "react-router-dom"
 import './tokens.css'
@@ -69,8 +69,9 @@ const Tokens = () => {
                     <section className="homepage" id="tokenWrap">
                         <div className="overlay">
                             <video className='bgVid' src="./images/TokenGatedVideoFull.mp4" autoPlay loop muted />
+                            <p id="songInfo">Song: Johnny Coolman<br/>Artist: Toots & The Maytals</p>
                             <button id="pausePlay" onClick={playing ? pause : play}>
-                                {playing ? <FaPause /> : <FaPlay />}
+                                {playing ? <FaVolumeMute /> : <FaVolumeUp />}
                             </button>
                             <button id="hitMeUp" onClick={() => navigate('/contact-me')}>Hit Me Up</button>
                         </div>
@@ -93,8 +94,9 @@ const Tokens = () => {
                     <section className="homepage">
                         <div className="overlay">
                             <video src="./images/TokenGatedVideoFull.mp4" autoPlay loop muted controls className="art-video" />
+                            <p id="songInfoMobile">Song: Johnny Coolman<br/>Artist: Toots & The Maytals</p>
                             <button id="pausePlay" onClick={playing ? pause : play}>
-                                {playing ? <FaPause /> : <FaPlay />}
+                                {playing ? <FaVolumeMute /> : <FaVolumeUp />}
                             </button>
                             <button id="hitMeUp" onClick={() => navigate('/contact-me')}>Hit Me Up</button>
                         </div>
