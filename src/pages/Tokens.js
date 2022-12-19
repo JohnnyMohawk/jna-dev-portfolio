@@ -1,6 +1,6 @@
 import {FaPlay, FaPause} from "react-icons/fa"
-import {useState, useEffect, useRef} from "react"
-import { Link, useNavigate } from "react-router-dom"
+import {useState, useEffect} from "react"
+import { useNavigate } from "react-router-dom"
 import './tokens.css'
 import { ABI } from "../data/abi.js"
 
@@ -29,6 +29,10 @@ const Tokens = () => {
     const [hasToken, setHasToken] = useState(false);
     const [playing, currentTime, play, pause, jump] = useAudio(audioURL);
 
+    const handlePlayPause = () => {
+        !hasToken ? pause() : play();
+    };
+
     const checkTokens = async () => {
         const { ethereum } = window;
         if (!ethereum) {
@@ -53,7 +57,10 @@ const Tokens = () => {
         
     useEffect(() => {
         checkTokens();
+        
     }, []);
+
+    useEffect(() => {handlePlayPause()}, [hasToken]);
 
     return window.innerWidth >= 500 ? (
         <>
@@ -61,7 +68,7 @@ const Tokens = () => {
                 <>
                     <section className="homepage" id="tokenWrap">
                         <div className="overlay">
-                            <video className='bgVid' src="./images/TokenGatedVideo720.mp4" autoPlay loop muted />
+                            <video className='bgVid' src="./images/TokenGatedVideoFull.mp4" autoPlay loop muted />
                             <button id="pausePlay" onClick={playing ? pause : play}>
                                 {playing ? <FaPause /> : <FaPlay />}
                             </button>
@@ -76,8 +83,7 @@ const Tokens = () => {
                             <button id="mintButton" onClick={visitMint}>Mint</button>
                         </div>
                     </section>
-                </>
-                ) 
+                </>) 
             }
         </>
     ) : (
@@ -86,10 +92,22 @@ const Tokens = () => {
                 <>
                     <section className="homepage">
                         <div className="overlay">
-                        <img className="mobile-bg" src="./images/bwbillseyes.jpg" />
+                            <video src="./images/TokenGatedVideoFull.mp4" autoPlay loop muted controls className="art-video" />
+                            <button id="pausePlay" onClick={playing ? pause : play}>
+                                {playing ? <FaPause /> : <FaPlay />}
+                            </button>
+                            <button id="hitMeUp" onClick={() => navigate('/contact-me')}>Hit Me Up</button>
                         </div>
                     </section>
-                </>) : (<></>) 
+                </>) : (
+                <>
+                    <section className="homepage" id="tokenWrap">
+                        <div className="overlay">
+                            <p id="noTokens">You do not have any Johnny Mohawk Key tokens required to access this section. <br/><br/>Click the mint link to create your key!</p>
+                            <button id="mintButton" onClick={visitMint}>Mint</button>
+                        </div>
+                    </section>
+                </>) 
             }    
         </>
     )

@@ -1,5 +1,4 @@
 import { useState } from "react"
-import {BiMenu} from "react-icons/bi"
 import { Link, useNavigate } from "react-router-dom"
 import { navbar } from "../data/navbar"
 import './menu.css'
@@ -41,7 +40,7 @@ const Menu = () => {
             const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
             console.log("Found an account! Address:", accounts[0])
             let balance = Number(await contract.methods.balanceOf(accounts[0]).call());
-            console.log("YOOOOOO", balance);
+            console.log("Token Balance: ", balance);
             if (balance === 0 || balance < 0) {
                 alert('You do not have any Johnny Mohawk Key tokens required to access this section. Click the mint link to create your key!');
             } else if (balance > 0) {
@@ -56,7 +55,6 @@ const Menu = () => {
         <>
             <div className="menu-btn">
                 <button onClick={() => setIsOpen(!isOpen)}>
-                    {/* <BiMenu /> */}
                     <img className="icons" alt="hamburger icon" src="./images/hamburger-icon.png" />
                 </button>
             </div>
@@ -74,8 +72,16 @@ const Menu = () => {
                         })}
                         <li><a href="https://blog.johnnelsonalden.com/" target="_blank" rel="noopenner noreferrer">Blog</a></li>
                         <p id="w3line">Web3</p>
-                        <li id="web3" onClick={() => checkWallet()}>Mint</li>
-                        <li id="web3" onClick={() => checkTokens()}>Unlock</li>
+                        <li id="web3" onClick={() => {
+                            checkWallet() 
+                            setIsOpen(false)}}>
+                            Mint
+                        </li>
+                        <li id="web3" onClick={() => {
+                            checkTokens()
+                            setIsOpen(false)}}>
+                            Unlock
+                        </li>
                     </ul>
                 </nav>
             </header>
