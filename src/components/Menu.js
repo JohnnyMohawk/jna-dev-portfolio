@@ -25,7 +25,7 @@ const Menu = () => {
         try {
             const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
             console.log("Found an account! Address:", accounts[0]);
-            window.open('https://johnnymohawknft.netlify.app/','_blank');
+            navigate('/mint');
         } catch (error) {
             console.log(error)
         }
@@ -51,6 +51,26 @@ const Menu = () => {
         }
     }
 
+    const weirdAILink = async () => {
+        const { ethereum } = window;
+        if (!ethereum) {
+            alert('Please install MetaMask Browser Extension to access this section');
+        }
+        try {
+            const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+            console.log("Found an account! Address:", accounts[0])
+            let balance = Number(await contract.methods.balanceOf(accounts[0]).call());
+            console.log("Token Balance: ", balance);
+            if (balance === 0 || balance < 0) {
+                alert('You do not have any Johnny Mohawk Key tokens required to access this section. Click the mint link to create your key!');
+            } else if (balance > 0) {
+                navigate('/weird-ai');
+            }
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
     return (
         <>
             <div className="menu-btn">
@@ -70,7 +90,9 @@ const Menu = () => {
                                 </li>
                             )
                         })}
-                        <li><a href="https://blog.johnnelsonalden.com/" target="_blank" rel="noopenner noreferrer">Blog</a></li>
+                        <li id="web3" onClick={() => {
+                            navigate('/blog')
+                            setIsOpen(false)}}>Blog</li>
                         <p id="w3line">Web3</p>
                         <li id="web3" onClick={() => {
                             checkWallet() 
@@ -81,6 +103,11 @@ const Menu = () => {
                             checkTokens()
                             setIsOpen(false)}}>
                             Unlock
+                        </li>
+                        <li id="web3" onClick={() => {
+                            weirdAILink()
+                            setIsOpen(false)}}>
+                            Weird AI
                         </li>
                     </ul>
                 </nav>

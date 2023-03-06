@@ -13,6 +13,9 @@ import About from "./pages/About";
 import Food from "./pages/Food";
 import Videos from "./pages/Videos";
 import Tokens from "./pages/Tokens";
+import WeirdAI from "./pages/WeirdAI";
+import Mint from "./pages/Mint";
+import Blog from "./pages/Blog";
 
 const App = () => {
   return (
@@ -26,7 +29,10 @@ const App = () => {
         <Route path="/videos" element={<Videos />} />
         <Route path="/about-me" element={<About />} />
         <Route path="/contact-me" element={<Contacts />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/token-gated" element={<Tokens />} />
+        <Route path="/weird-ai" element={<WeirdAI />} />
+        <Route path="/mint" element={<Mint />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

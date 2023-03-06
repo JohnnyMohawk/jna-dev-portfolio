@@ -37,9 +37,10 @@
     width: 200px;
     border-bottom: white 1px solid;
     border-top: white 1px solid;
+    background-color: #000;
     padding-top: 4px;
     font-size: 22px;
-    color: white;
+    color: rgba(248, 4, 4, 0.8);
   }
   
   .menu-btn {

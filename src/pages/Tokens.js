@@ -50,10 +50,6 @@ const Tokens = () => {
             console.log(error)
         }
     };
-
-    const visitMint = () => {
-        window.open('https://johnnymohawknft.netlify.app/','_blank');
-    };
         
     useEffect(() => {
         checkTokens();
@@ -81,7 +77,7 @@ const Tokens = () => {
                     <section className="homepage" id="tokenWrap">
                         <div className="overlay">
                             <p id="noTokens">You do not have any Johnny Mohawk Key tokens required to access this section. <br/><br/>Click the mint link to create your key!</p>
-                            <button id="mintButton" onClick={visitMint}>Mint</button>
+                            <button id="mintButton" onClick={() => navigate('/mint')}>Mint</button>
                         </div>
                     </section>
                 </>) 
@@ -106,7 +102,7 @@ const Tokens = () => {
                     <section className="homepage" id="tokenWrap">
                         <div className="overlay">
                             <p id="noTokens">You do not have any Johnny Mohawk Key tokens required to access this section. <br/><br/>Click the mint link to create your key!</p>
-                            <button id="mintButton" onClick={visitMint}>Mint</button>
+                            <button id="mintButton" onClick={() => navigate('/mint')}>Mint</button>
                         </div>
                     </section>
                 </>) 
